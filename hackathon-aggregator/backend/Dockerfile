@@ -11,8 +11,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 # Install Python dependencies
 COPY requirements.txt .
-RUN pip install --no-cache-dir --user -r requirements.txt
-
+RUN pip install --no-cache-dir --prefix=/install -r requirements.txt
 
 # Production stage
 FROM python:3.11-slim
@@ -25,13 +24,10 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
 # Copy installed packages from builder
-COPY --from=builder /root/.local /root/.local
+COPY --from=builder /install /usr/local
 
 # Copy application code
 COPY . .
-
-# Add local packages to PATH
-ENV PATH=/root/.local/bin:$PATH
 
 # Create non-root user
 RUN useradd --create-home --shell /bin/bash app && \
