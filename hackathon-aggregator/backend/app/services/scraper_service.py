@@ -2,7 +2,7 @@
 import asyncio
 import logging
 from datetime import datetime
-from typing import Dict, List
+from typing import Dict, List, Optional
 
 from app.scrapers.unstop import UnstopScraper
 from app.scrapers.devfolio import DevfolioScraper
