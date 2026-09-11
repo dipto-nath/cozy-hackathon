@@ -1,0 +1,160 @@
+import { Hackathon } from '../types';
+
+/** ISO timestamp `days` from now (end of day), so demo countdowns stay alive. */
+function inDays(days: number): string {
+  const d = new Date();
+  d.setDate(d.getDate() + days);
+  d.setHours(23, 59, 0, 0);
+  return d.toISOString();
+}
+
+/**
+ * Bundled sample data used only when the backend API (localhost:8000)
+ * is unreachable, so the UI can be explored without a server.
+ */
+export const DEMO_HACKATHONS: Hackathon[] = [
+  {
+    id: 'demo-01',
+    title: 'Smart India Hackathon 2026',
+    organization: 'Ministry of Education',
+    platform_source: 'Unstop',
+    url: 'https://www.sih.gov.in',
+    mode: 'Offline',
+    fee_type: 'Free',
+    state_location: 'Delhi',
+    registration_deadline: inDays(2), // urgent
+    event_date: inDays(45),
+  },
+  {
+    id: 'demo-02',
+    title: 'MLH Global Hack Week: Build Week',
+    organization: 'Major League Hacking',
+    platform_source: 'MLH',
+    url: 'https://mlh.io',
+    mode: 'Online',
+    fee_type: 'Free',
+    state_location: 'All India',
+    registration_deadline: inDays(9),
+    event_date: inDays(21),
+  },
+  {
+    id: 'demo-03',
+    title: 'Devpost World Series Hack',
+    organization: 'Devpost',
+    platform_source: 'Devpost',
+    url: 'https://devpost.com',
+    mode: 'Online',
+    fee_type: 'Free',
+    state_location: 'All India',
+    registration_deadline: inDays(14),
+    event_date: inDays(30),
+  },
+  {
+    id: 'demo-04',
+    title: 'Bangalore Blockchain Buidlathon',
+    organization: 'Web3 Bangalore',
+    platform_source: 'Devfolio',
+    url: 'https://devfolio.co',
+    mode: 'Offline',
+    fee_type: 'Paid',
+    state_location: 'Karnataka',
+    registration_deadline: inDays(6),
+    event_date: inDays(25),
+  },
+  {
+    id: 'demo-05',
+    title: 'Mumbai AI Sprint 48h',
+    organization: 'IIT Bombay',
+    platform_source: 'Unstop',
+    url: 'https://unstop.com',
+    mode: 'Hybrid',
+    fee_type: 'Paid',
+    state_location: 'Maharashtra',
+    registration_deadline: inDays(1), // urgent
+    event_date: inDays(20),
+  },
+  {
+    id: 'demo-06',
+    title: 'Chennai CyberSec CTF',
+    organization: 'Guvi',
+    platform_source: 'Devfolio',
+    url: 'https://devfolio.co',
+    mode: 'Online',
+    fee_type: 'Free',
+    state_location: 'Tamil Nadu',
+    registration_deadline: inDays(11),
+    event_date: inDays(18),
+  },
+  {
+    id: 'demo-07',
+    title: 'Hyderabad HealthTech Hack',
+    organization: 'IIIT Hyderabad',
+    platform_source: 'Unstop',
+    url: 'https://unstop.com',
+    mode: 'Offline',
+    fee_type: 'Paid',
+    state_location: 'Telangana',
+    registration_deadline: inDays(18),
+    event_date: inDays(40),
+  },
+  {
+    id: 'demo-08',
+    title: 'Pune GreenTech Challenge',
+    organization: 'COEP TechX',
+    platform_source: 'Unstop',
+    url: 'https://unstop.com',
+    mode: 'Hybrid',
+    fee_type: 'Free',
+    state_location: 'Maharashtra',
+    registration_deadline: inDays(4),
+    event_date: inDays(28),
+  },
+  {
+    id: 'demo-09',
+    title: 'Delhi FinTech Forge',
+    organization: 'DTU',
+    platform_source: 'Devpost',
+    url: 'https://devpost.com',
+    mode: 'Offline',
+    fee_type: 'Paid',
+    state_location: 'Delhi',
+    registration_deadline: inDays(-5), // expired
+    event_date: inDays(12),
+  },
+  {
+    id: 'demo-10',
+    title: 'Kolkata CodeFest',
+    organization: 'Jadavpur University',
+    platform_source: 'Devfolio',
+    url: 'https://devfolio.co',
+    mode: 'Offline',
+    fee_type: 'Free',
+    state_location: 'West Bengal',
+    registration_deadline: inDays(21),
+    event_date: inDays(50),
+  },
+  {
+    id: 'demo-11',
+    title: 'Kerala Open Source Days',
+    organization: 'FOSS United',
+    platform_source: 'Devfolio',
+    url: 'https://devfolio.co',
+    mode: 'Hybrid',
+    fee_type: 'Free',
+    state_location: 'Kerala',
+    registration_deadline: inDays(8),
+    event_date: inDays(22),
+  },
+  {
+    id: 'demo-12',
+    title: 'Rajasthan Desert Devs Hack',
+    organization: 'LNMIIT Jaipur',
+    platform_source: 'Devpost',
+    url: 'https://devpost.com',
+    mode: 'Online',
+    fee_type: 'Free',
+    state_location: 'Rajasthan',
+    registration_deadline: inDays(15),
+    event_date: inDays(35),
+  },
+];
