@@ -7,7 +7,6 @@ from typing import List, Optional
 
 import httpx
 from bs4 import BeautifulSoup
-from playwright.async_api import Browser, BrowserContext, Page, async_playwright
 
 from app.core.config import settings
 from app.schemas.hackathon import HackathonScrapedData
@@ -20,8 +19,6 @@ class BaseScraper(ABC):
     platform_source: str = ""
 
     def __init__(self) -> None:
-        self.browser: Optional[Browser] = None
-        self.context: Optional[BrowserContext] = None
         self._semaphore: Optional[asyncio.Semaphore] = None
 
     @property
@@ -37,38 +34,13 @@ class BaseScraper(ABC):
         pass
 
     async def initialize(self) -> None:
-        """Initialize browser and context."""
+        """Initialize resources."""
         if self._semaphore is None:
             self._semaphore = asyncio.Semaphore(settings.scraper_concurrent_limit)
 
-        playwright = await async_playwright().start()
-        self.browser = await playwright.chromium.launch(
-            headless=True,
-            args=[
-                "--disable-blink-features=AutomationControlled",
-                "--disable-dev-shm-usage",
-                "--no-sandbox",
-                "--disable-setuid-sandbox",
-            ],
-        )
-        self.context = await self.browser.new_context(
-            user_agent=settings.scraper_user_agent,
-            viewport={"width": 1920, "height": 1080},
-            locale="en-US",
-            timezone_id="UTC",
-        )
-        await self.context.add_init_script("""
-            Object.defineProperty(navigator, 'webdriver', {
-                get: () => undefined
-            });
-        """)
-
     async def close(self) -> None:
-        """Close browser and cleanup."""
-        if self.context:
-            await self.context.close()
-        if self.browser:
-            await self.browser.close()
+        """Close resources and cleanup."""
+        pass
 
     async def __aenter__(self) -> "BaseScraper":
         await self.initialize()
@@ -87,21 +59,6 @@ class BaseScraper(ABC):
             delay = self._get_random_delay()
             await asyncio.sleep(delay)
             return await func(*args, **kwargs)
-
-    async def fetch_page(self, url: str, wait_for_selector: Optional[str] = None) -> Page:
-        """Fetch a page with Playwright and return the page object."""
-        if not self.context:
-            raise RuntimeError("Scraper not initialized. Call initialize() first.")
-
-        page = await self.context.new_page()
-        try:
-            await page.goto(url, wait_until="networkidle", timeout=settings.scraper_timeout * 1000)
-            if wait_for_selector:
-                await page.wait_for_selector(wait_for_selector, timeout=settings.scraper_timeout * 1000)
-            return page
-        except Exception:
-            await page.close()
-            raise
 
     async def fetch_html(self, url: str) -> str:
         """Fetch HTML content using httpx for simpler pages."""

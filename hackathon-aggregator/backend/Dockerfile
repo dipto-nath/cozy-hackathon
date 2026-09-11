@@ -13,10 +13,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 COPY requirements.txt .
 RUN pip install --no-cache-dir --user -r requirements.txt
 
-# Install Playwright browsers
-RUN pip install --no-cache-dir --user playwright && \
-    python -m playwright install chromium && \
-    python -m playwright install-deps chromium
 
 # Production stage
 FROM python:3.11-slim
