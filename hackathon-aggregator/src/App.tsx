@@ -31,6 +31,7 @@ function AppContent() {
   // Fetch unique countries and states globally
   useEffect(() => {
     const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:8000/api/hackathons';
+    console.log("Current API_BASE is:", API_BASE);
     fetch(`${API_BASE}/locations`)
       .then((res) => res.json())
       .then((data) => setLocationsMap(data))
