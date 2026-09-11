@@ -56,7 +56,7 @@ class Settings(BaseSettings):
 
     # CORS
     cors_origins: List[str] = Field(
-        default_factory=lambda: ["http://localhost:5173", "http://localhost:3000"]
+        default_factory=lambda: ["http://localhost:5173", "http://localhost:3000", "https://cozy-hackathon-chi.vercel.app"]
     )
 
     @field_validator("cors_origins", mode="before")

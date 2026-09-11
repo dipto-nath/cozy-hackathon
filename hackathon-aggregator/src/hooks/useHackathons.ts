@@ -2,7 +2,7 @@ import { useState, useEffect, useMemo } from 'react';
 import { Hackathon, FilterState } from '../types';
 import { DEMO_HACKATHONS } from '../data/demoHackathons';
 
-const API_BASE = 'http://localhost:8000/api/hackathons';
+const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:8000/api/hackathons';
 
 function buildQueryString(filters: FilterState): string {
   const params = new URLSearchParams();
