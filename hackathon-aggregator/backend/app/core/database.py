@@ -27,12 +27,18 @@ class DatabaseManager:
 
     def initialize(self) -> None:
         """Initialize the database engine and session factory."""
+        # SQLite does not support pool_size and max_overflow
+        engine_kwargs = {
+            "pool_pre_ping": True,
+            "echo": settings.debug,
+        }
+        if not settings.database_url.startswith("sqlite"):
+            engine_kwargs["pool_size"] = settings.database_pool_size
+            engine_kwargs["max_overflow"] = settings.database_max_overflow
+
         self._engine = create_async_engine(
             settings.database_url,
-            pool_size=settings.database_pool_size,
-            max_overflow=settings.database_max_overflow,
-            pool_pre_ping=True,
-            echo=settings.debug,
+            **engine_kwargs
         )
         self._session_factory = async_sessionmaker(
             self._engine,
