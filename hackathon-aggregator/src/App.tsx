@@ -9,6 +9,7 @@ import Hero from './components/Hero';
 import FilterBar from './components/FilterBar';
 import HackathonGrid from './components/HackathonGrid';
 import TechEventsPage from './components/techevents/TechEventsPage';
+import LandingPage from './components/LandingPage';
 
 type ActiveTab = 'hackathons' | 'techevents';
 
@@ -213,9 +214,20 @@ function AppContent() {
 }
 
 function App() {
+  const [showLanding, setShowLanding] = useState(true);
+
   return (
     <ThemeProvider>
-      <AppContent />
+      {showLanding && (
+        <LandingPage onEnter={() => setShowLanding(false)} />
+      )}
+      {/* Main app — always rendered in DOM so data loads in background */}
+      <div
+        className={`transition-all duration-700 ease-in-out
+          ${showLanding ? 'opacity-0 pointer-events-none' : 'opacity-100'}`}
+      >
+        <AppContent />
+      </div>
     </ThemeProvider>
   );
 }
