@@ -72,7 +72,7 @@ export default function LandingPage({ onEnter, player }: LandingPageProps) {
             fontSize: 'clamp(3.5rem, 12vw, 9rem)',
             color: '#fff',
             textShadow: '0 4px 32px rgba(0,0,0,0.6), 0 1px 0 rgba(0,0,0,0.4)',
-            fontFamily: '"Noto Sans Devanagari", "Mangal", serif',
+            fontFamily: '"Yatra One", serif',
           }}
         >
           बनाने वालों
