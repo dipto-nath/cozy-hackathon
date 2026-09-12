@@ -11,7 +11,7 @@
  * Output: scripts/techevents/raw-techevents.json
  */
 
-import { FirecrawlApp } from '@mendable/firecrawl-js';
+import FirecrawlApp from '@mendable/firecrawl-js';
 import { writeFile } from 'fs/promises';
 import { PLATFORM_CONFIGS, FIRECRAWL_PLATFORM_KEYS, CONFSTECH_TOPICS } from './config.js';
 
