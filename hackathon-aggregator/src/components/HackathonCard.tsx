@@ -1,9 +1,11 @@
-import { Calendar, MapPin, Globe, ExternalLink, Clock, Shield, DollarSign } from 'lucide-react';
+import { Calendar, MapPin, Globe, ExternalLink, Clock, Shield, DollarSign, Heart } from 'lucide-react';
 import { Hackathon } from '../types';
 import { formatDate, getDaysUntil } from '../utils/countdown';
 
 interface HackathonCardProps {
   hackathon: Hackathon;
+  isFavourite?: boolean;
+  onToggleFavourite?: (id: string) => void;
 }
 
 function ModeBadge({ mode }: { mode: Hackathon['mode'] }) {
@@ -36,7 +38,7 @@ function FeeBadge({ fee }: { fee: Hackathon['fee_type'] }) {
   );
 }
 
-export default function HackathonCard({ hackathon }: HackathonCardProps) {
+export default function HackathonCard({ hackathon, isFavourite, onToggleFavourite }: HackathonCardProps) {
   const { days, urgent } = getDaysUntil(hackathon.registration_deadline);
   const isExpired = days === 0 && new Date(hackathon.registration_deadline) < new Date();
 
@@ -56,11 +58,11 @@ export default function HackathonCard({ hackathon }: HackathonCardProps) {
           </p>
         </div>
         <span className={`px-2 py-1 rounded-full text-xs font-medium shrink-0
-          ${urgent && !isExpired
-            ? 'bg-terracotta-100 dark:bg-terracotta-900/30 text-terracotta-700 dark:text-terracotta-300 animate-pulse'
-            : isExpired
-            ? 'bg-cream-200 dark:bg-night-200 text-night-400 dark:text-cream-300'
-            : 'bg-sage-100 dark:bg-sage-900/30 text-sage-700 dark:text-sage-300'
+          ${isExpired
+            ? 'bg-red-100 dark:bg-red-900/30 text-red-600 dark:text-red-400'
+            : urgent
+            ? 'bg-emerald-100 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-400 animate-pulse'
+            : 'bg-emerald-100 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-400'
           }`}>
         {isExpired ? 'Expired' : `${days}d left`}
       </span>
@@ -105,13 +107,18 @@ export default function HackathonCard({ hackathon }: HackathonCardProps) {
           <ExternalLink className="w-4 h-4" />
           View Details
         </a>
-        <button className="p-2.5 rounded-xl
-          bg-cream-200 dark:bg-night-200
-          text-night-400 dark:text-cream-100
-          hover:bg-sage-100 dark:hover:bg-sage-900/30
-          hover:text-sage-500 dark:hover:text-sage-400
-          transition-theme" aria-label="Bookmark">
-          <Shield className="w-5 h-5" />
+        <button 
+          onClick={(e) => {
+            e.preventDefault();
+            onToggleFavourite?.(hackathon.id);
+          }}
+          className={`p-2.5 rounded-xl transition-theme
+            ${isFavourite 
+              ? 'bg-red-100 dark:bg-red-900/30 text-red-500 hover:bg-red-200 dark:hover:bg-red-900/50' 
+              : 'bg-cream-200 dark:bg-night-200 text-night-400 dark:text-cream-100 hover:bg-sage-100 dark:hover:bg-sage-900/30 hover:text-sage-500 dark:hover:text-sage-400'
+            }`}
+          aria-label={isFavourite ? "Remove from favourites" : "Add to favourites"}>
+          <Heart className={`w-5 h-5 ${isFavourite ? 'fill-current' : ''}`} />
         </button>
       </div>
     </article>

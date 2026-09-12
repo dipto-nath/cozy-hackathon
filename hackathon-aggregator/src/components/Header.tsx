@@ -1,12 +1,14 @@
-import { Sun, Moon, Search } from 'lucide-react';
+import { Sun, Moon, Search, Heart } from 'lucide-react';
 import { useTheme } from '../hooks/useTheme';
 
 interface HeaderProps {
   search: string;
   onSearchChange: (v: string) => void;
+  showFavourites?: boolean;
+  onToggleFavouritesView?: () => void;
 }
 
-export default function Header({ search, onSearchChange }: HeaderProps) {
+export default function Header({ search, onSearchChange, showFavourites, onToggleFavouritesView }: HeaderProps) {
   const { theme, toggle } = useTheme();
 
   return (
@@ -42,19 +44,31 @@ export default function Header({ search, onSearchChange }: HeaderProps) {
             />
           </div>
 
-          {/* Theme toggle */}
-          <button
-            onClick={toggle}
-            aria-label="Toggle theme"
-            className="p-2 rounded-xl
-              bg-cream-200 dark:bg-night-200
-              text-sage-500 dark:text-dusk-400
-              hover:bg-sage-100 dark:hover:bg-dusk-100
-              transition-theme">
-            {theme === 'light'
-              ? <Moon className="w-4 h-4" />
-              : <Sun className="w-4 h-4" />}
-          </button>
+          {/* Theme toggle & Favourites */}
+          <div className="flex items-center gap-2">
+            <button
+              onClick={onToggleFavouritesView}
+              aria-label="Toggle favourites"
+              className={`p-2 rounded-xl transition-theme
+                ${showFavourites 
+                  ? 'bg-red-100 dark:bg-red-900/30 text-red-500' 
+                  : 'bg-cream-200 dark:bg-night-200 text-sage-500 dark:text-dusk-400 hover:bg-sage-100 dark:hover:bg-dusk-100'
+                }`}>
+              <Heart className={`w-4 h-4 ${showFavourites ? 'fill-current' : ''}`} />
+            </button>
+            <button
+              onClick={toggle}
+              aria-label="Toggle theme"
+              className="p-2 rounded-xl
+                bg-cream-200 dark:bg-night-200
+                text-sage-500 dark:text-dusk-400
+                hover:bg-sage-100 dark:hover:bg-dusk-100
+                transition-theme">
+              {theme === 'light'
+                ? <Moon className="w-4 h-4" />
+                : <Sun className="w-4 h-4" />}
+            </button>
+          </div>
         </div>
       </div>
     </header>

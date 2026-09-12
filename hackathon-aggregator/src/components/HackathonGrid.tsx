@@ -6,9 +6,11 @@ interface HackathonGridProps {
   hackathons: Hackathon[];
   loading: boolean;
   error: string | null;
+  favourites?: Set<string>;
+  onToggleFavourite?: (id: string) => void;
 }
 
-export default function HackathonGrid({ hackathons, loading, error }: HackathonGridProps) {
+export default function HackathonGrid({ hackathons, loading, error, favourites, onToggleFavourite }: HackathonGridProps) {
   if (error && hackathons.length === 0) {
     return (
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
@@ -73,7 +75,12 @@ export default function HackathonGrid({ hackathons, loading, error }: HackathonG
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
         {hackathons.map((hackathon) => (
-          <HackathonCard key={hackathon.id} hackathon={hackathon} />
+          <HackathonCard 
+            key={hackathon.id} 
+            hackathon={hackathon} 
+            isFavourite={favourites?.has(hackathon.id)}
+            onToggleFavourite={onToggleFavourite}
+          />
         ))}
       </div>
     </div>

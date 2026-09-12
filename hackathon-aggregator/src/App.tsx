@@ -26,6 +26,37 @@ function AppContent() {
     search: debouncedSearch,
   });
 
+  const [showFavourites, setShowFavourites] = useState(false);
+  const [favourites, setFavourites] = useState<Set<string>>(() => {
+    try {
+      const saved = localStorage.getItem('hackathon-favourites');
+      return saved ? new Set(JSON.parse(saved)) : new Set();
+    } catch (e) {
+      return new Set();
+    }
+  });
+
+  const toggleFavourite = useCallback((id: string) => {
+    setFavourites(prev => {
+      const next = new Set(prev);
+      if (next.has(id)) {
+        next.delete(id);
+      } else {
+        next.add(id);
+      }
+      localStorage.setItem('hackathon-favourites', JSON.stringify(Array.from(next)));
+      return next;
+    });
+  }, []);
+
+  const displayedHackathons = useMemo(() => {
+    if (!hackathons) return [];
+    if (showFavourites) {
+      return hackathons.filter(h => favourites.has(h.id));
+    }
+    return hackathons;
+  }, [hackathons, showFavourites, favourites]);
+
   const [locationsMap, setLocationsMap] = useState<Record<string, string[]>>({});
 
   // Fetch unique countries and states globally
@@ -84,7 +115,12 @@ function AppContent() {
 
   return (
     <div className="min-h-screen bg-cream-50 dark:bg-night-100 transition-theme">
-      <Header search={search} onSearchChange={onSearchChange} />
+      <Header 
+        search={search} 
+        onSearchChange={onSearchChange} 
+        showFavourites={showFavourites}
+        onToggleFavouritesView={() => setShowFavourites(prev => !prev)}
+      />
       <main className="max-w-7xl mx-auto">
         <Hero />
         <FilterBar
@@ -110,9 +146,11 @@ function AppContent() {
           </div>
         )}
         <HackathonGrid
-          hackathons={hackathons}
+          hackathons={displayedHackathons}
           loading={loading}
           error={error}
+          favourites={favourites}
+          onToggleFavourite={toggleFavourite}
         />
       </main>
       <footer className="border-t border-cream-200 dark:border-night-200
