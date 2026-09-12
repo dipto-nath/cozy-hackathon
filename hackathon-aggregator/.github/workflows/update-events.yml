@@ -1,0 +1,51 @@
+name: Daily Tech Events Scraper
+
+on:
+  schedule:
+    # Runs at 00:00 UTC (Midnight) every day
+    - cron: '0 0 * * *'
+  
+  # Allows you to click a "Run workflow" button manually in the Actions tab
+  workflow_dispatch:
+
+jobs:
+  scrape-and-commit:
+    runs-on: ubuntu-latest
+    
+    # Grants the bot permission to push the updated JSON file back to your repo
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run Data Pipeline (Scrape & Normalize)
+        env:
+          # Pulls your secure API key from GitHub Secrets
+          FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
+        run: npm run pipeline:techevents
+
+      - name: Check for changes
+        id: git-check
+        # If the JSON file changed, mark 'changes=true'
+        run: |
+          git diff --exit-code src/data/techevents.json || echo "changes=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and Push changes
+        if: steps.git-check.outputs.changes == 'true'
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/techevents.json
+          git commit -m "🤖 chore: daily tech events update [skip ci]"
+          git push
