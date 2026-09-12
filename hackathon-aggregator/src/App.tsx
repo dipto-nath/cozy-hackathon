@@ -10,6 +10,9 @@ import FilterBar from './components/FilterBar';
 import HackathonGrid from './components/HackathonGrid';
 import TechEventsPage from './components/techevents/TechEventsPage';
 import LandingPage from './components/LandingPage';
+import { FloatingMusicPlayer } from './components/MusicPlayer';
+import { useYouTubePlayer } from './hooks/useYouTubePlayer';
+import { YOUTUBE_PLAYLIST_ID } from './config/music';
 
 type ActiveTab = 'hackathons' | 'techevents';
 
@@ -215,18 +218,25 @@ function AppContent() {
 
 function App() {
   const [showLanding, setShowLanding] = useState(true);
+  const player = useYouTubePlayer(YOUTUBE_PLAYLIST_ID);
 
   return (
     <ThemeProvider>
       {showLanding && (
-        <LandingPage onEnter={() => setShowLanding(false)} />
+        <LandingPage
+          onEnter={() => setShowLanding(false)}
+          player={player}
+        />
       )}
+
       {/* Main app — always rendered in DOM so data loads in background */}
       <div
         className={`transition-all duration-700 ease-in-out
-          ${showLanding ? 'opacity-0 pointer-events-none' : 'opacity-100'}`}
+          ${showLanding ? 'opacity-0 pointer-events-none h-screen overflow-hidden fixed inset-0' : 'opacity-100'}`}
       >
         <AppContent />
+        {/* Floating mini music player — persists after landing */}
+        <FloatingMusicPlayer {...player} />
       </div>
     </ThemeProvider>
   );

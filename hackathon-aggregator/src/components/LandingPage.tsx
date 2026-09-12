@@ -1,27 +1,44 @@
 import { useState, useEffect } from 'react';
+import { LandingMusicPlayer } from './MusicPlayer';
+import type { MusicPlayerState } from '../hooks/useYouTubePlayer';
 
 interface LandingPageProps {
   onEnter: () => void;
+  player: MusicPlayerState;
 }
 
-export default function LandingPage({ onEnter }: LandingPageProps) {
+export default function LandingPage({ onEnter, player }: LandingPageProps) {
   const [entered, setEntered] = useState(false);
   const [visible, setVisible] = useState(false);
 
-  // Fade-in on mount
+  // Fade-in on mount and prevent background scroll
   useEffect(() => {
+    document.body.style.overflow = 'hidden';
     const t = setTimeout(() => setVisible(true), 80);
-    return () => clearTimeout(t);
+    return () => {
+      clearTimeout(t);
+      document.body.style.overflow = '';
+    };
   }, []);
 
   const handleEnter = () => {
     setEntered(true);
+    if (!player.isPlaying && player.isReady) {
+      player.play();
+    }
     // Give the exit animation time to play before swapping view
     setTimeout(onEnter, 700);
   };
 
+  const handleInteraction = () => {
+    if (!player.isPlaying && player.isReady) {
+      player.play();
+    }
+  };
+
   return (
     <div
+      onClick={handleInteraction}
       className={`fixed inset-0 z-50 overflow-hidden transition-all duration-700 ease-in-out
         ${visible ? 'opacity-100' : 'opacity-0'}
         ${entered ? 'opacity-0 scale-105' : 'opacity-100 scale-100'}`}
@@ -73,38 +90,40 @@ export default function LandingPage({ onEnter }: LandingPageProps) {
         </p>
       </div>
 
-      {/* ── Bottom enter button — replaces the music player in saloon.wtf ─── */}
+      {/* ── Bottom area — music player + enter button (like saloon.wtf) ────── */}
       <div
-        className={`absolute bottom-12 left-1/2 -translate-x-1/2 z-10
+        className={`absolute bottom-6 left-1/2 -translate-x-1/2 z-10
+          flex flex-col items-center gap-4
           transition-all duration-1000 delay-500
-          ${visible ? 'translate-y-0 opacity-100' : 'translate-y-4 opacity-0'}`}
+          ${visible ? 'translate-y-0 opacity-100' : 'translate-y-6 opacity-0'}`}
       >
+        {/* Full music player widget */}
+        <LandingMusicPlayer {...player} />
+
+        {/* Minimal enter button below the player */}
         <button
           id="landing-enter-btn"
           onClick={handleEnter}
-          className="group relative flex items-center gap-3 px-7 py-3.5 rounded-full
-            bg-white/10 hover:bg-white/20 active:bg-white/30
-            border border-white/25 hover:border-white/50
+          className="group flex items-center gap-2.5 px-6 py-2.5 rounded-full
+            bg-white/8 hover:bg-white/15 active:bg-white/25
+            border border-white/20 hover:border-white/40
             backdrop-blur-md
-            text-white text-sm font-semibold tracking-wide
+            text-white/70 hover:text-white text-sm font-medium tracking-wide
             transition-all duration-300 ease-out
-            hover:scale-105 hover:shadow-[0_0_40px_rgba(255,255,255,0.15)]"
+            hover:scale-105"
         >
-          {/* Subtle left arrow / enter icon */}
-          <span className="text-white/50 group-hover:text-white/80 transition-colors text-lg leading-none">
-            →
-          </span>
+          <span className="group-hover:translate-x-0.5 transition-transform duration-200">→</span>
           <span>अंदर आओ</span>
-          <span className="text-white/40 text-xs font-normal">enter</span>
+          <span className="text-white/35 text-xs font-normal ml-0.5">enter</span>
         </button>
 
-        {/* Tiny keyboard hint */}
-        <p className="mt-3 text-center text-white/30 text-xs tracking-widest">
-          press  <kbd className="px-1.5 py-0.5 rounded border border-white/20 text-white/40 text-xs">enter</kbd>  or click
+        {/* Keyboard hint */}
+        <p className="text-white/25 text-xs tracking-widest -mt-2">
+          or press <kbd className="px-1 py-0.5 rounded border border-white/15 text-white/30 text-[10px]">enter</kbd>
         </p>
       </div>
 
-      {/* ── Keyboard shortcut support ────────────────────────────────────── */}
+      {/* ── Keyboard shortcut support ─────────────────────────────────────── */}
       <KeyListener onEnter={handleEnter} />
     </div>
   );
