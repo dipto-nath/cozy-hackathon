@@ -2,19 +2,21 @@ name: Daily Tech Events Scraper
 
 on:
   schedule:
-    # Runs at 00:00 UTC (Midnight) every day
     - cron: '0 0 * * *'
-  
-  # Allows you to click a "Run workflow" button manually in the Actions tab
   workflow_dispatch:
 
 jobs:
   scrape-and-commit:
     runs-on: ubuntu-latest
     
-    # Grants the bot permission to push the updated JSON file back to your repo
+    # Required to push commits back to the repo
     permissions:
       contents: write
+
+    # Sets the default folder since your app is in a subfolder
+    defaults:
+      run:
+        working-directory: ./hackathon-aggregator
 
     steps:
       - name: Checkout repository
@@ -25,19 +27,18 @@ jobs:
         with:
           node-version: '20'
           cache: 'npm'
+          cache-dependency-path: './hackathon-aggregator/package-lock.json'
 
       - name: Install dependencies
         run: npm install
 
       - name: Run Data Pipeline (Scrape & Normalize)
         env:
-          # Pulls your secure API key from GitHub Secrets
           FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
         run: npm run pipeline:techevents
 
       - name: Check for changes
         id: git-check
-        # If the JSON file changed, mark 'changes=true'
         run: |
           git diff --exit-code src/data/techevents.json || echo "changes=true" >> $GITHUB_OUTPUT
 
