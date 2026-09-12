@@ -8,7 +8,7 @@ function buildQueryString(filters: FilterState): string {
   const params = new URLSearchParams();
   params.set('page_size', '100');
   if (filters.mode !== 'All') params.set('mode', filters.mode);
-  if (filters.fee !== 'All') params.set('fee', filters.fee);
+  if (filters.fee !== 'All') params.set('fee_type', filters.fee);
   if (filters.country) params.set('country', filters.country);
   if (filters.state) params.set('state_location', filters.state);
   if (filters.search) params.set('search', filters.search);
