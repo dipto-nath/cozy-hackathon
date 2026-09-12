@@ -7,10 +7,14 @@ import TechEventGrid from './TechEventGrid';
 const DEFAULT_FILTERS: TechEventFilterState = {
   category: 'All',
   mode:     'All',
-  search:   '',
+  fee:      'All',
 };
 
-export default function TechEventsPage() {
+interface TechEventsPageProps {
+  search: string;
+}
+
+export default function TechEventsPage({ search }: TechEventsPageProps) {
   const [filters, setFilters] = useState<TechEventFilterState>(DEFAULT_FILTERS);
 
   const [showFavourites, setShowFavourites] = useState(false);
@@ -32,7 +36,7 @@ export default function TechEventsPage() {
     });
   }, []);
 
-  const { data: events, loading, error, total } = useTechEvents(filters);
+  const { data: events, loading, error, total } = useTechEvents(filters, search);
 
   const displayedEvents = useMemo(() => {
     if (showFavourites) return events.filter((e) => favourites.has(e.id));
@@ -42,8 +46,9 @@ export default function TechEventsPage() {
   const hasActiveFilters = useMemo(() => (
     filters.category !== 'All' ||
     filters.mode     !== 'All' ||
-    filters.search   !== ''
-  ), [filters]);
+    filters.fee      !== 'All' ||
+    search           !== ''
+  ), [filters, search]);
 
   const onFiltersChange = useCallback((partial: Partial<TechEventFilterState>) => {
     setFilters((prev) => ({ ...prev, ...partial }));

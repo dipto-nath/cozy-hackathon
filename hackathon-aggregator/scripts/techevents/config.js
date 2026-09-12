@@ -17,14 +17,13 @@ export const PLATFORM_CONFIGS = {
   //    React hydration completes before LLM extraction runs.
   // ─────────────────────────────────────────────────────────────────────────
   luma: {
-    name: 'Luma',
+    name: 'Luma (Discover)',
     url: 'https://lu.ma/discover',
     platform_source: 'lu.ma',
     category: 'General Tech',
-    // Firecrawl browser actions executed BEFORE extraction
     actions: [
-      { type: 'wait', milliseconds: 4000 },         // wait for CF challenge + React hydration
-      { type: 'scroll', direction: 'down', amount: 3 }, // trigger lazy-loading
+      { type: 'wait', milliseconds: 4000 },
+      { type: 'scroll', direction: 'down', amount: 3 },
       { type: 'wait', milliseconds: 1500 },
     ],
     extraction: {
@@ -42,6 +41,88 @@ Focus on developer-relevant events. Skip social or non-tech events.`,
               properties: {
                 title:    { type: 'string' },
                 date:     { type: 'string', description: 'YYYY-MM-DD' },
+                location: { type: 'string' },
+                url:      { type: 'string' },
+                fee_type: { type: 'string', enum: ['Free', 'Paid'] },
+                mode:     { type: 'string', enum: ['Online', 'Offline', 'Hybrid'] },
+              },
+              required: ['title', 'date', 'url'],
+            },
+          },
+        },
+        required: ['events'],
+      },
+    },
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────────
+  // 1b. Luma AI — curated AI-focused events feed
+  // ─────────────────────────────────────────────────────────────────────────────
+  luma_ai: {
+    name: 'Luma AI',
+    url: 'https://lu.ma/ai',
+    platform_source: 'lu.ma',
+    category: 'AI',
+    actions: [
+      { type: 'wait', milliseconds: 4000 },
+      { type: 'scroll', direction: 'down', amount: 3 },
+      { type: 'wait', milliseconds: 1500 },
+    ],
+    extraction: {
+      prompt: `Extract all AI and machine learning events from this Luma AI events page.
+For each event return: title, date (YYYY-MM-DD), location (city + country or "Virtual"),
+direct event URL, fee_type ("Free" or "Paid"), mode ("Online", "Offline", or "Hybrid").`,
+      schema: {
+        type: 'object',
+        properties: {
+          events: {
+            type: 'array',
+            items: {
+              type: 'object',
+              properties: {
+                title:    { type: 'string' },
+                date:     { type: 'string' },
+                location: { type: 'string' },
+                url:      { type: 'string' },
+                fee_type: { type: 'string', enum: ['Free', 'Paid'] },
+                mode:     { type: 'string', enum: ['Online', 'Offline', 'Hybrid'] },
+              },
+              required: ['title', 'date', 'url'],
+            },
+          },
+        },
+        required: ['events'],
+      },
+    },
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────────
+  // 1c. Luma Tech — curated general tech events feed
+  // ─────────────────────────────────────────────────────────────────────────────
+  luma_tech: {
+    name: 'Luma Tech',
+    url: 'https://lu.ma/tech',
+    platform_source: 'lu.ma',
+    category: 'General Tech',
+    actions: [
+      { type: 'wait', milliseconds: 4000 },
+      { type: 'scroll', direction: 'down', amount: 3 },
+      { type: 'wait', milliseconds: 1500 },
+    ],
+    extraction: {
+      prompt: `Extract all tech conferences, developer meetups, and product events from this Luma Tech events page.
+For each event return: title, date (YYYY-MM-DD), location (city + country or "Virtual"),
+direct event URL, fee_type ("Free" or "Paid"), mode ("Online", "Offline", or "Hybrid").`,
+      schema: {
+        type: 'object',
+        properties: {
+          events: {
+            type: 'array',
+            items: {
+              type: 'object',
+              properties: {
+                title:    { type: 'string' },
+                date:     { type: 'string' },
                 location: { type: 'string' },
                 url:      { type: 'string' },
                 fee_type: { type: 'string', enum: ['Free', 'Paid'] },
@@ -348,6 +429,19 @@ fee_type ("Free"/"Paid"), mode ("Online"/"Offline"/"Hybrid").`,
 
 /** Ordered list of platforms that use Firecrawl extraction */
 export const FIRECRAWL_PLATFORM_KEYS = [
-  'luma', 'web3events', 'signal', 'coinmarketcal',
+  'luma', 'luma_ai', 'luma_tech',
+  'web3events', 'signal', 'coinmarketcal',
   'coinpedia', 'konfhub', 'techmeme', 'devevents', 'sessionize',
+];
+
+/**
+ * Confs.tech topic files to fetch from GitHub.
+ * The repo is organised as conferences/{year}/{topic}.json
+ * NOT a single conferences.json — fetching per-topic gets all data.
+ */
+export const CONFSTECH_TOPICS = [
+  'accessibility','android','api','cfml','cpp','css','data','devops','dotnet',
+  'general','identity','ios','iot','java','javascript','kotlin','leadership',
+  'networking','opensource','performance','php','product','python','ruby',
+  'rust','scala','security','sre','tech-comm','testing','typescript','ux',
 ];

@@ -18,7 +18,7 @@ export type TechEventFeeType = 'Free' | 'Paid';
 export interface TechEventFilterState {
   category: TechEventCategory | 'All';
   mode: TechEventMode | 'All';
-  search: string;
+  fee: TechEventFeeType | 'All';
 }
 
 export interface TechEventGridProps {

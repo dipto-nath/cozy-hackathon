@@ -13,7 +13,7 @@
 
 import { FirecrawlApp } from '@mendable/firecrawl-js';
 import { writeFile } from 'fs/promises';
-import { PLATFORM_CONFIGS, FIRECRAWL_PLATFORM_KEYS } from './config.js';
+import { PLATFORM_CONFIGS, FIRECRAWL_PLATFORM_KEYS, CONFSTECH_TOPICS } from './config.js';
 
 // ─── Firecrawl client ────────────────────────────────────────────────────────
 const FIRECRAWL_API_KEY = process.env.FIRECRAWL_API_KEY ?? 'fc-your-api-key-here';
@@ -90,57 +90,56 @@ async function scrapeWithFirecrawl(platformKey) {
   }
 }
 
-// ─────────────────────────────────────────────────────────────────────────────
-// Confs.tech — Direct GitHub JSON fetch (no scraping needed)
-// Repo: https://github.com/tech-conferences/conference-data
-// The repo contains pre-structured JSON for thousands of conferences.
-// ─────────────────────────────────────────────────────────────────────────────
+// ─────────────────────────────────────────────────────────────────────────────────
+// Confs.tech — Direct GitHub per-topic JSON fetch
+// Repo structure: conferences/{year}/{topic}.json  (NOT a single conferences.json)
+// ─────────────────────────────────────────────────────────────────────────────────
 async function fetchConfsTechEvents() {
-  console.log('\n🔍 Fetching Confs.tech from GitHub JSON…');
-  const THIRTY_DAYS_AGO = new Date(Date.now() - 30 * 24 * 60 * 60 * 1000);
-
-  // The repo is organized per-year. Fetch current + next year to be safe.
+  console.log('\n🔍 Fetching Confs.tech from GitHub per-topic JSON…');
+  const BASE = 'https://raw.githubusercontent.com/tech-conferences/conference-data/main/conferences';
+  const CUTOFF = new Date(Date.now() - 30 * 24 * 60 * 60 * 1000);
   const currentYear = new Date().getFullYear();
-  const urls = [
-    `https://raw.githubusercontent.com/tech-conferences/conference-data/main/conferences/${currentYear}.json`,
-    `https://raw.githubusercontent.com/tech-conferences/conference-data/main/conferences/${currentYear + 1}.json`,
-  ];
+  const years = [currentYear, currentYear + 1];
 
+  const results = await Promise.allSettled(
+    years.flatMap(year =>
+      CONFSTECH_TOPICS.map(async (topic) => {
+        try {
+          const r = await fetch(`${BASE}/${year}/${topic}.json`);
+          if (!r.ok) return [];
+          const confs = await r.json();
+          return confs.map(c => ({ ...c, _topic: topic }));
+        } catch {
+          return [];
+        }
+      })
+    )
+  );
+
+  const all = results.flatMap(r => r.status === 'fulfilled' ? r.value : []);
+  const seen = new Set();
   const events = [];
 
-  for (const url of urls) {
-    try {
-      const res = await fetch(url);
-      if (!res.ok) {
-        // Next year file may not exist yet — that's fine
-        console.log(`  ℹ️  No Confs.tech data for URL: ${url}`);
-        continue;
-      }
-      const data = await res.json();
+  for (const conf of all) {
+    const date = conf.startDate || conf.date || '';
+    if (!date) continue;
+    if (new Date(date) < CUTOFF) continue;
 
-      for (const conf of data) {
-        const rawDate = conf.startDate ?? conf.date ?? '';
-        if (!rawDate) continue;
+    const key = `${(conf.name || '').toLowerCase().replace(/\s+/g, '')}|${date.split('T')[0]}`;
+    if (seen.has(key)) continue;
+    seen.add(key);
 
-        const eventDate = new Date(rawDate);
-        if (eventDate < THIRTY_DAYS_AGO) continue; // skip past events
-
-        const location = [conf.city, conf.country].filter(Boolean).join(', ') || 'Virtual';
-
-        events.push({
-          title:           conf.name,
-          date:            rawDate.split('T')[0],
-          location,
-          url:             conf.url || `https://confs.tech`,
-          category:        categorizeName(conf.name, conf.tags ?? []),
-          platform_source: 'confs.tech',
-          fee_type:        'Paid',
-          mode:            conf.online ? 'Online' : 'Offline',
-        });
-      }
-    } catch (err) {
-      console.error('  ❌ Confs.tech fetch error:', err.message);
-    }
+    const loc = [conf.city, conf.country].filter(Boolean).join(', ') || 'Virtual';
+    events.push({
+      title:           conf.name,
+      date:            date.split('T')[0],
+      location:        conf.online ? 'Virtual' : loc,
+      url:             conf.url || 'https://confs.tech',
+      category:        categorizeName(conf.name, [conf._topic]),
+      platform_source: 'confs.tech',
+      fee_type:        'Paid',
+      mode:            conf.online ? 'Online' : 'Offline',
+    });
   }
 
   console.log(`  ✅ ${events.length} events from Confs.tech`);

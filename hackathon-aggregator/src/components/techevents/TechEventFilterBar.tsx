@@ -1,8 +1,9 @@
-import { Filter, X, Search } from 'lucide-react';
-import { TechEventFilterBarProps, TechEventCategory, TechEventMode } from '../../types/techevents';
+import { Filter, X } from 'lucide-react';
+import { TechEventFilterBarProps, TechEventCategory, TechEventMode, TechEventFeeType } from '../../types/techevents';
 
 const CATEGORIES: Array<TechEventCategory | 'All'> = ['All', 'Web3', 'AI', 'General Tech'];
-const MODES:      Array<TechEventMode | 'All'>      = ['All', 'Online', 'Offline', 'Hybrid'];
+const MODES:      Array<TechEventMode | 'All'>     = ['All', 'Online', 'Offline', 'Hybrid'];
+const FEES:       Array<TechEventFeeType | 'All'>  = ['All', 'Free', 'Paid'];
 
 /** Category accent colours matching the CategoryBadge in TechEventCard */
 const CATEGORY_ACTIVE: Record<string, string> = {
@@ -25,23 +26,23 @@ export default function TechEventFilterBar({
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col sm:flex-row gap-3 py-3 flex-wrap">
 
-          {/* ── Search ───────────────────────────────────────────────────── */}
-          <div className="relative sm:w-52">
-            <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-3.5 h-3.5
-              text-dusk-400 dark:text-dusk-300 pointer-events-none" />
-            <input
-              id="tech-events-search"
-              type="text"
-              placeholder="Search events…"
-              value={filters.search}
-              onChange={(e) => onFiltersChange({ search: e.target.value })}
-              className="w-full pl-8 pr-3 py-2 rounded-xl text-sm
-                bg-cream-200 dark:bg-night-200
-                text-night-400 dark:text-cream-100
-                placeholder-dusk-400 dark:placeholder-dusk-300
-                border border-transparent focus:border-sage-300 dark:focus:border-dusk-400
-                outline-none transition-theme"
-            />
+          {/* ── Fee filter ────────────────────────────────────────────────── */}
+          <div className="flex items-center gap-2">
+            <div className="flex gap-1 bg-cream-200 dark:bg-night-200 rounded-xl p-1">
+              {FEES.map((fee) => (
+                <button
+                  key={fee}
+                  onClick={() => onFiltersChange({ fee })}
+                  className={`px-3 py-1.5 text-xs font-medium rounded-lg transition-theme
+                    ${filters.fee === fee
+                      ? 'bg-terracotta-500 text-cream-50 shadow-soft'
+                      : 'text-night-100 dark:text-cream-200 hover:bg-cream-300 dark:hover:bg-night-300'
+                    }`}
+                >
+                  {fee}
+                </button>
+              ))}
+            </div>
           </div>
 
           {/* ── Category filter ───────────────────────────────────────────── */}

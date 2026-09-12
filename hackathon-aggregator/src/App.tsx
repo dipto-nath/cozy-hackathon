@@ -196,7 +196,7 @@ function AppContent() {
         )}
 
         {/* ── Tech Events tab ────────────────────────────────────────────── */}
-        {activeTab === 'techevents' && <TechEventsPage />}
+        {activeTab === 'techevents' && <TechEventsPage search={debouncedSearch} />}
       </main>
 
       <footer className="border-t border-cream-200 dark:border-night-200

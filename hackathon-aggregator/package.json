@@ -10,6 +10,7 @@
     "preview": "vite preview",
     "scrape:techevents": "node scripts/techevents/scrape.js",
     "normalize:techevents": "node scripts/techevents/normalize.js",
+    "seed:techevents": "node scripts/techevents/seed.js",
     "pipeline:techevents": "npm run scrape:techevents && npm run normalize:techevents"
   },
   "dependencies": {
