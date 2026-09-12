@@ -1,0 +1,10 @@
+model_list:
+  - model_name: nemotron-3-ultra
+    litellm_params:
+      # Change 'nvidia/nemotron-4-340b-instruct' to the exact OpenRouter model ID you want to use
+      model: openrouter/nvidia/nemotron-4-340b-instruct 
+      api_key: "os.environ/OPENROUTER_API_KEY"
+
+litellm_settings:
+  num_retries: 5           # Automatically retry up to 5 times if the server errors/drops
+  request_timeout: 120     # Max wait time for a response

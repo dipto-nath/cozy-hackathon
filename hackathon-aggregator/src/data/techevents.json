@@ -1,0 +1,134 @@
+[
+  {
+    "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "title": "ETHGlobal Bangkok 2025",
+    "event_date": "2025-11-14",
+    "location": "Bangkok, Thailand",
+    "url": "https://ethglobal.com/events/bangkok",
+    "category": "Web3",
+    "platform_source": "lu.ma",
+    "fee_type": "Free",
+    "mode": "Offline"
+  },
+  {
+    "id": "b2c3d4e5-f6a7-8901-bcde-f12345678901",
+    "title": "AI Engineer World's Fair 2025",
+    "event_date": "2025-06-25",
+    "location": "San Francisco, USA",
+    "url": "https://www.ai.engineer/worldsfair",
+    "category": "AI",
+    "platform_source": "confs.tech",
+    "fee_type": "Paid",
+    "mode": "Offline"
+  },
+  {
+    "id": "c3d4e5f6-a7b8-9012-cdef-123456789012",
+    "title": "Web Summit 2025",
+    "event_date": "2025-11-11",
+    "location": "Lisbon, Portugal",
+    "url": "https://websummit.com",
+    "category": "General Tech",
+    "platform_source": "techmeme.com",
+    "fee_type": "Paid",
+    "mode": "Offline"
+  },
+  {
+    "id": "d4e5f6a7-b8c9-0123-defa-234567890123",
+    "title": "Devcon 7 – Southeast Asia",
+    "event_date": "2025-11-12",
+    "location": "Bangkok, Thailand",
+    "url": "https://devcon.org",
+    "category": "Web3",
+    "platform_source": "web3events.guide",
+    "fee_type": "Paid",
+    "mode": "Offline"
+  },
+  {
+    "id": "e5f6a7b8-c9d0-1234-efab-345678901234",
+    "title": "Google I/O Extended 2025",
+    "event_date": "2025-07-20",
+    "location": "Virtual",
+    "url": "https://io.google/2025/",
+    "category": "General Tech",
+    "platform_source": "konfhub.com",
+    "fee_type": "Free",
+    "mode": "Online"
+  },
+  {
+    "id": "f6a7b8c9-d0e1-2345-fabc-456789012345",
+    "title": "NeurIPS 2025",
+    "event_date": "2025-12-02",
+    "location": "Vancouver, Canada",
+    "url": "https://neurips.cc",
+    "category": "AI",
+    "platform_source": "confs.tech",
+    "fee_type": "Paid",
+    "mode": "Hybrid"
+  },
+  {
+    "id": "a7b8c9d0-e1f2-3456-abcd-567890123456",
+    "title": "DeFi Summit Paris 2025",
+    "event_date": "2025-09-22",
+    "location": "Paris, France",
+    "url": "https://defisummit.io",
+    "category": "Web3",
+    "platform_source": "thesignal.directory",
+    "fee_type": "Paid",
+    "mode": "Offline"
+  },
+  {
+    "id": "b8c9d0e1-f2a3-4567-bcde-678901234567",
+    "title": "KonfHub DevFest India 2025",
+    "event_date": "2025-10-18",
+    "location": "Bengaluru, India",
+    "url": "https://konfhub.com/devfest-india-2025",
+    "category": "General Tech",
+    "platform_source": "konfhub.com",
+    "fee_type": "Free",
+    "mode": "Offline"
+  },
+  {
+    "id": "c9d0e1f2-a3b4-5678-cdef-789012345678",
+    "title": "Open Source Summit Europe 2025",
+    "event_date": "2025-09-24",
+    "location": "Vienna, Austria",
+    "url": "https://events.linuxfoundation.org/open-source-summit-europe/",
+    "category": "General Tech",
+    "platform_source": "devevents.co",
+    "fee_type": "Paid",
+    "mode": "Offline"
+  },
+  {
+    "id": "d0e1f2a3-b4c5-6789-defa-890123456789",
+    "title": "Blockchain Expo Global – Virtual",
+    "event_date": "2025-10-01",
+    "location": "Virtual",
+    "url": "https://blockchain-expo.com/global/",
+    "category": "Web3",
+    "platform_source": "coinmarketcal.com",
+    "fee_type": "Free",
+    "mode": "Online"
+  },
+  {
+    "id": "e1f2a3b4-c5d6-7890-efab-901234567890",
+    "title": "QCon London 2026",
+    "event_date": "2026-03-23",
+    "location": "London, UK",
+    "url": "https://qconlondon.com",
+    "category": "General Tech",
+    "platform_source": "sessionize.com",
+    "fee_type": "Paid",
+    "mode": "Offline"
+  },
+  {
+    "id": "f2a3b4c5-d6e7-8901-fabc-012345678901",
+    "title": "AI & Big Data Expo North America",
+    "event_date": "2025-11-19",
+    "location": "Santa Clara, USA",
+    "url": "https://www.ai-expo.net/northamerica/",
+    "category": "AI",
+    "platform_source": "devevents.co",
+    "fee_type": "Paid",
+    "mode": "Hybrid"
+  }
+]
