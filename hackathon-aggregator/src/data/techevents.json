@@ -1,28 +1,6 @@
 [
   {
-    "id": "74cd0345-4107-4565-8d97-0345e71943c5",
-    "title": "ZurichJS Conf",
-    "event_date": "2026-09-10",
-    "location": "Zurich, Switzerland",
-    "url": "https://conf.zurichjs.com",
-    "category": "General Tech",
-    "platform_source": "confs.tech",
-    "fee_type": "Paid",
-    "mode": "Offline"
-  },
-  {
-    "id": "ca40e105-55c7-42c8-bcaf-44eba6cf6cb8",
-    "title": "Nutrifresh Farm Ultra 2026 - 2nd Edition",
-    "event_date": "2026-09-12",
-    "location": "Pune, India",
-    "url": "https://konfhub.com/Nutrifresh-Farm-Ultra-2026",
-    "category": "General Tech",
-    "platform_source": "konfhub.com",
-    "fee_type": "Paid",
-    "mode": "Offline"
-  },
-  {
-    "id": "4de081dd-545b-4d6e-a357-25e978ba8c33",
+    "id": "dd84ec50-3d2d-437d-bc94-91645839c204",
     "title": "Disney Data & Analytics Conference (DDAC)",
     "event_date": "2026-09-14",
     "location": "Orlando, FL, U.S.A.",
@@ -33,7 +11,7 @@
     "mode": "Offline"
   },
   {
-    "id": "76b15fcc-39b4-429a-87c6-9daf996461a8",
+    "id": "0fc0634d-9e68-4df5-9b97-76d15da7ad00",
     "title": "Code Europe",
     "event_date": "2026-09-14",
     "location": "Virtual",
@@ -44,7 +22,7 @@
     "mode": "Online"
   },
   {
-    "id": "c4b545b2-bc8d-4fbe-bf18-cb33500c6832",
+    "id": "9f492464-008f-4fab-9997-e028a707a07e",
     "title": "Scrum Master Day",
     "event_date": "2026-09-14",
     "location": "Virtual",
@@ -55,7 +33,7 @@
     "mode": "Online"
   },
   {
-    "id": "bab68740-7349-4089-a54f-98a494d411d9",
+    "id": "6ce760ee-2f9f-4f1b-821c-5d051958d9b5",
     "title": "LDX3 New York",
     "event_date": "2026-09-15",
     "location": "New York, NY, U.S.A.",
@@ -66,7 +44,7 @@
     "mode": "Offline"
   },
   {
-    "id": "26cca432-2750-4175-af0d-ac6b263f0990",
+    "id": "8d354ae1-e3a7-47ed-8dc0-b45817a92984",
     "title": "uxcon vienna",
     "event_date": "2026-09-16",
     "location": "Virtual",
@@ -77,7 +55,7 @@
     "mode": "Online"
   },
   {
-    "id": "7d0605db-ad84-473b-bd53-232694644df8",
+    "id": "10aac478-7eda-472b-9c0c-3c1f6e94133b",
     "title": "TechTok",
     "event_date": "2026-09-16",
     "location": "St Julian's, Malta",
@@ -88,7 +66,7 @@
     "mode": "Offline"
   },
   {
-    "id": "f1e87f38-18f2-42b6-86c9-16e7e985ebe6",
+    "id": "15218475-5b16-4394-9067-177c1368f713",
     "title": "Hatch Conference",
     "event_date": "2026-09-16",
     "location": "Berlin, Germany",
@@ -99,18 +77,18 @@
     "mode": "Offline"
   },
   {
-    "id": "a96eb4eb-482a-4066-a76e-30b43a6db925",
+    "id": "8ab1259a-1ed5-41a5-bc3e-e535d63b851e",
     "title": "E-Summit Passes",
     "event_date": "2026-09-17",
     "location": "Mumbai, India",
-    "url": "https://konfhub.com/E-Summit-Passes",
+    "url": "https://konfhub.com/events/e-summit-passes",
     "category": "General Tech",
     "platform_source": "konfhub.com",
     "fee_type": "Paid",
     "mode": "Offline"
   },
   {
-    "id": "b69f7d2c-6643-4a15-9d7b-ccc468032748",
+    "id": "689776fc-8baf-4a94-9f03-052a131a2771",
     "title": "dotAI",
     "event_date": "2026-09-17",
     "location": "Paris, France",
@@ -121,7 +99,7 @@
     "mode": "Offline"
   },
   {
-    "id": "398ee269-ee69-4efa-b581-a54d46b8f49d",
+    "id": "77eb7f82-1ae0-4d2a-854b-2229492ac202",
     "title": "World Conference on  Smart Systems : Big Data, IoT, Cybersecurity, and IT in Action",
     "event_date": "2026-09-17",
     "location": "Tokyo, Japan",
@@ -132,7 +110,7 @@
     "mode": "Offline"
   },
   {
-    "id": "d9c9f065-709f-47a9-a275-86d3c15003a5",
+    "id": "bd63fcfb-91d9-42f6-a5cc-ca0771ff575d",
     "title": "AWS Community Day CEE",
     "event_date": "2026-09-17",
     "location": "Budapest, Hungary",
@@ -143,7 +121,7 @@
     "mode": "Offline"
   },
   {
-    "id": "7f417c01-788c-4155-a92e-d08c62a63870",
+    "id": "a696c82b-a28d-406a-a198-11e35742b239",
     "title": "Agent Conf",
     "event_date": "2026-09-17",
     "location": "Warsaw, Poland",
@@ -154,7 +132,7 @@
     "mode": "Offline"
   },
   {
-    "id": "969c7c8f-8d2a-43aa-a726-7a155d4d47ea",
+    "id": "851397c3-2857-483d-a413-ad45984e51f9",
     "title": "entwickler Summit",
     "event_date": "2026-09-17",
     "location": "Berlin, Germany",
@@ -165,7 +143,7 @@
     "mode": "Offline"
   },
   {
-    "id": "da71160e-0b66-4077-964f-b44044de2a7e",
+    "id": "2ebdcf7d-eecb-4985-9413-869ea8e8e2bf",
     "title": "Future Builders",
     "event_date": "2026-09-18",
     "location": "Vienna, Austria",
@@ -176,7 +154,7 @@
     "mode": "Offline"
   },
   {
-    "id": "a32a4c69-e298-465e-bd6b-64cdb2f2565f",
+    "id": "1d6c5c7c-8532-40c0-a3d4-9446e8ca8c75",
     "title": "dotJS",
     "event_date": "2026-09-18",
     "location": "Paris, France",
@@ -187,7 +165,7 @@
     "mode": "Offline"
   },
   {
-    "id": "4cdbbe50-b973-48b9-8cb7-b4b9d8bccf00",
+    "id": "fa473011-2a7c-4004-bac1-212b68d001b2",
     "title": "STARWEST",
     "event_date": "2026-09-20",
     "location": "Virtual",
@@ -198,18 +176,7 @@
     "mode": "Online"
   },
   {
-    "id": "761a3bbb-c00b-443c-a437-87e70d64e84e",
-    "title": "15 Day Crash Course",
-    "event_date": "2026-09-21",
-    "location": "Jaipur, India",
-    "url": "https://konfhub.com/15-Day-Crash-Course",
-    "category": "General Tech",
-    "platform_source": "konfhub.com",
-    "fee_type": "Paid",
-    "mode": "Offline"
-  },
-  {
-    "id": "d715a9cb-0782-4435-b19f-70d763f6dbc7",
+    "id": "55e5f97e-4401-4411-98f5-af212722674e",
     "title": "L8Conf",
     "event_date": "2026-09-21",
     "location": "Warsaw, Poland",
@@ -220,7 +187,7 @@
     "mode": "Offline"
   },
   {
-    "id": "5d4fdfaf-31e8-474b-a794-d07ddbdec8dd",
+    "id": "bee9a550-4789-4906-8aff-3fdd0a7b1bc5",
     "title": "Future Coding Day",
     "event_date": "2026-09-22",
     "location": "Copenhagen, Denmark",
@@ -231,7 +198,7 @@
     "mode": "Offline"
   },
   {
-    "id": "5a742b24-d9a0-44a9-a297-1bf6885d2a80",
+    "id": "6beaadc2-5af9-41d6-b24c-51702756cd44",
     "title": "Future Product Days",
     "event_date": "2026-09-22",
     "location": "Copenhagen, Denmark",
@@ -242,7 +209,7 @@
     "mode": "Offline"
   },
   {
-    "id": "7585a985-9667-4207-8599-244944855ce2",
+    "id": "adcbb13a-344a-4dcd-9f3a-072dbd9dd8eb",
     "title": "heise devSec",
     "event_date": "2026-09-22",
     "location": "Marburg, Germany",
@@ -253,7 +220,7 @@
     "mode": "Offline"
   },
   {
-    "id": "00b17988-b49e-4f6e-b81a-1c34785a0f06",
+    "id": "4bdb9839-e2a8-43f9-ace7-b35af390493f",
     "title": "NSW AI Bonanza",
     "event_date": "2026-09-23",
     "location": "Sydney, Australia",
@@ -264,7 +231,7 @@
     "mode": "Offline"
   },
   {
-    "id": "4e0dc248-ccc6-4005-b9d2-f4663c8d1e82",
+    "id": "6b3cedce-3b47-49d3-8fa5-38ac591a477b",
     "title": "WeAreDevelopers World Congress North America",
     "event_date": "2026-09-23",
     "location": "San Jose, CA, U.S.A.",
@@ -275,7 +242,7 @@
     "mode": "Offline"
   },
   {
-    "id": "7b04a563-f26c-4435-ae23-c4d3624185a8",
+    "id": "76836102-2b8f-4ade-948b-076d8f29ff93",
     "title": "AI X QA Leadership Summit - Autumn",
     "event_date": "2026-09-23",
     "location": "Virtual",
@@ -286,7 +253,7 @@
     "mode": "Online"
   },
   {
-    "id": "d47c1e8a-266d-4a46-aa93-51568b547c1b",
+    "id": "bf506c2e-7d63-4237-a977-329caa8b8eab",
     "title": "Agile Tour Vienna",
     "event_date": "2026-09-24",
     "location": "Vienna, Austria",
@@ -297,7 +264,7 @@
     "mode": "Offline"
   },
   {
-    "id": "467036ae-c9fa-4392-a352-6ba9f77ccf9d",
+    "id": "424574e9-9945-4dc6-b346-fc2beb929700",
     "title": "AI Pivot Conference",
     "event_date": "2026-09-25",
     "location": "Anaheim, CA, U.S.A.",
@@ -308,7 +275,7 @@
     "mode": "Offline"
   },
   {
-    "id": "b506bc61-9756-4c09-821d-71efbd53f92d",
+    "id": "d3bc753e-495c-4a2d-a7fd-a12e9a275aa9",
     "title": "Confitura",
     "event_date": "2026-09-25",
     "location": "Warsaw, Poland",
@@ -319,7 +286,7 @@
     "mode": "Offline"
   },
   {
-    "id": "496fc1de-e98a-4af4-8b4d-8deff3bfd982",
+    "id": "57a891b1-94f0-402b-99af-aff0ef9f51f9",
     "title": "MCP Community Connect - Bengaluru",
     "event_date": "2026-09-26",
     "location": "Bangalore, India",
@@ -330,7 +297,7 @@
     "mode": "Offline"
   },
   {
-    "id": "e654ae70-eb24-49c3-99f5-f46122e25850",
+    "id": "f52041ca-ab01-4403-9d5b-520d6d2a0525",
     "title": "API Conference NYC",
     "event_date": "2026-09-28",
     "location": "Virtual",
@@ -341,7 +308,7 @@
     "mode": "Online"
   },
   {
-    "id": "a79c4083-223d-4998-9d28-b74ab59ca475",
+    "id": "f7586f54-b7fa-4832-9a95-123c1b6f1ae0",
     "title": "DecOpsCon NYC",
     "event_date": "2026-09-28",
     "location": "Virtual",
@@ -352,7 +319,7 @@
     "mode": "Online"
   },
   {
-    "id": "14bdebc6-0dc7-4bbd-b1d3-a03504a6f4cc",
+    "id": "c63b454d-6346-4f6d-a284-802f174c4120",
     "title": "GAI World",
     "event_date": "2026-09-28",
     "location": "Boulder, CO, U.S.A.",
@@ -363,7 +330,7 @@
     "mode": "Offline"
   },
   {
-    "id": "26a530d8-1d11-4dc4-b693-36b506430ac3",
+    "id": "d626c4e6-614f-4480-bb39-2db44d44ebaf",
     "title": "European Microsoft Fabric Community Conference",
     "event_date": "2026-09-28",
     "location": "Barcelona, Spain",
@@ -374,7 +341,7 @@
     "mode": "Offline"
   },
   {
-    "id": "969dc474-5d63-4ab2-af00-71aceea2f990",
+    "id": "1819dfa0-e760-4830-ade2-902f9f2f1824",
     "title": "MLCon NYC",
     "event_date": "2026-09-28",
     "location": "Virtual",
@@ -385,7 +352,7 @@
     "mode": "Online"
   },
   {
-    "id": "1d194c8f-dd44-4bb1-83bc-50aeafaf4cbc",
+    "id": "258540a6-82b9-4c50-aac1-1ba6c8f9f300",
     "title": "BASTA! Herbst",
     "event_date": "2026-09-28",
     "location": "Virtual",
@@ -396,7 +363,7 @@
     "mode": "Online"
   },
   {
-    "id": "85de5381-58ed-42aa-a1ce-6b85de351482",
+    "id": "664b713d-a1ec-4e95-a39e-077f19e97d67",
     "title": "GOTO Copenhagen",
     "event_date": "2026-09-28",
     "location": "Copenhagen, Denmark",
@@ -407,7 +374,7 @@
     "mode": "Offline"
   },
   {
-    "id": "698f60eb-0e80-45a8-8102-006b386b24df",
+    "id": "e5d48aeb-f4e9-43fd-ab8f-1873ef1847a4",
     "title": "International JavaScript Conference NYC",
     "event_date": "2026-09-28",
     "location": "Virtual",
@@ -418,7 +385,7 @@
     "mode": "Online"
   },
   {
-    "id": "cd8afd7c-37af-4f4c-9907-00ddd8c9b0b6",
+    "id": "0e3976b0-2c53-4465-b4dc-1c1361cb01cb",
     "title": "DrupalCon Europe",
     "event_date": "2026-09-28",
     "location": "Rotterdam, Netherlands",
@@ -429,7 +396,7 @@
     "mode": "Offline"
   },
   {
-    "id": "0b277045-6456-48a2-b98e-755d8e8215fd",
+    "id": "b235319b-5a0e-4587-a397-26145b688086",
     "title": "Devopsdays Berlin",
     "event_date": "2026-09-29",
     "location": "Berlin, Germany",
@@ -440,7 +407,7 @@
     "mode": "Offline"
   },
   {
-    "id": "b77c2fa1-389d-4c8f-9340-688d00d04b13",
+    "id": "12b52b1e-8ad5-465f-acb8-f174e2023fe0",
     "title": "CTO Craft Con: Europe",
     "event_date": "2026-09-29",
     "location": "Amsterdam, Netherlands",
@@ -451,18 +418,18 @@
     "mode": "Offline"
   },
   {
-    "id": "59f8deb3-15d4-4a4a-9248-a01ecd09df28",
+    "id": "f4db949d-ef01-4fc4-9a16-6bedc5b2cade",
     "title": "Bitchill s04",
     "event_date": "2026-09-30",
     "location": "Prospera, Honduras",
     "url": "https://www.web3events.guide/events/bitchill-s04-ig31vinn",
     "category": "Web3",
     "platform_source": "web3events.guide",
-    "fee_type": "Free",
+    "fee_type": "Paid",
     "mode": "Offline"
   },
   {
-    "id": "ec7e1db4-efda-4d7c-b744-7ccc17ba23bc",
+    "id": "02f37ae8-0330-4bf8-92c1-cbb0c052c839",
     "title": "TechSummit Amsterdam",
     "event_date": "2026-09-30",
     "location": "Amsterdam, Netherlands",
@@ -473,7 +440,7 @@
     "mode": "Offline"
   },
   {
-    "id": "0ce6df50-ab9e-4454-9925-dd72c5d3902f",
+    "id": "2801bffb-5fd3-4a01-b509-7f32eaad40bf",
     "title": "Applied AI Technology Conference",
     "event_date": "2026-10-01",
     "location": "Virtual",
@@ -484,7 +451,7 @@
     "mode": "Online"
   },
   {
-    "id": "5d59430a-a938-4157-ab85-cd1c5a57a181",
+    "id": "6bde6acd-4011-427d-a8bb-fb0babc27072",
     "title": "bitcoin++ payments edition",
     "event_date": "2026-10-01",
     "location": "Berlin, Germany",
@@ -495,7 +462,7 @@
     "mode": "Offline"
   },
   {
-    "id": "41181774-6b35-415c-9c47-dcb6400997a2",
+    "id": "c4d7d5f1-748b-443c-b3ca-4dcc89726c1b",
     "title": "WordCamp Rajasthan",
     "event_date": "2026-10-03",
     "location": "Jaipur, India",
@@ -506,7 +473,7 @@
     "mode": "Offline"
   },
   {
-    "id": "31933c78-0b9a-4957-b827-8332fe529f22",
+    "id": "a5f17f07-f705-4afc-b512-9758e83766b3",
     "title": "VibeKode Utrecht",
     "event_date": "2026-10-05",
     "location": "Virtual",
@@ -517,7 +484,7 @@
     "mode": "Online"
   },
   {
-    "id": "27ef6bd8-87d9-4207-b05a-776a601d28c9",
+    "id": "2c4153af-c36b-449b-ba42-6e4c38a0ea5d",
     "title": "Jax London",
     "event_date": "2026-10-05",
     "location": "Virtual",
@@ -528,18 +495,18 @@
     "mode": "Online"
   },
   {
-    "id": "d89df541-3843-48c8-b6d6-3f8b4152d8e8",
+    "id": "5c2c4634-d4e4-45e0-8b32-17ce5e244fe8",
     "title": "c0c0n 2026",
     "event_date": "2026-10-06",
     "location": "Kochi, India",
-    "url": "https://konfhub.com/c0c0n-2026",
+    "url": "https://konfhub.com/events/c0c0n-2026",
     "category": "General Tech",
     "platform_source": "konfhub.com",
     "fee_type": "Paid",
     "mode": "Offline"
   },
   {
-    "id": "33770345-9533-4ebf-963f-fdee5c5e11cf",
+    "id": "8e41246a-4781-4b45-a3a8-97348ce8d356",
     "title": "betterCode() Agentic AI",
     "event_date": "2026-10-06",
     "location": "Virtual",
@@ -550,7 +517,7 @@
     "mode": "Online"
   },
   {
-    "id": "c331a598-0b8e-4425-b06f-f6a65a91410d",
+    "id": "7629662f-f080-40f0-9faf-9f9c9fe17f9c",
     "title": "FrontKon",
     "event_date": "2026-10-06",
     "location": "Prague, Czech Republic",
@@ -561,7 +528,7 @@
     "mode": "Offline"
   },
   {
-    "id": "4845e488-2a6d-4c19-9955-3ee994be1281",
+    "id": "53060d95-d218-4fd5-a08e-dd3a3e92e7f5",
     "title": "next.app devcon",
     "event_date": "2026-10-07",
     "location": "Berlin, Germany",
@@ -572,7 +539,7 @@
     "mode": "Offline"
   },
   {
-    "id": "b968a07e-f1b0-4e9a-83e3-02aafa028153",
+    "id": "6663889a-bf91-4f45-a9cc-4ff9bb857f91",
     "title": "Enterprise AI Summit",
     "event_date": "2026-10-07",
     "location": "Charlotte, NC, U.S.A.",
@@ -583,7 +550,7 @@
     "mode": "Offline"
   },
   {
-    "id": "ebdb4bea-ec3f-4ef0-b37d-298d41232085",
+    "id": "a99f9f18-44e2-42e2-9885-ad92a1700a79",
     "title": "World Summit AI",
     "event_date": "2026-10-07",
     "location": "Amsterdam, Netherlands",
@@ -594,7 +561,7 @@
     "mode": "Offline"
   },
   {
-    "id": "12498f07-5e77-4028-9981-06cbe6eec288",
+    "id": "8fd3beb2-b3fd-4d09-b5e9-5df0f6f9003b",
     "title": "data2day",
     "event_date": "2026-10-07",
     "location": "Cologne, Germany",
@@ -605,7 +572,7 @@
     "mode": "Offline"
   },
   {
-    "id": "f0e0cc2a-8c86-47c4-9500-b937f24ee983",
+    "id": "142cf462-18c0-4020-893f-7a1b4143e8c2",
     "title": "swiftcon@next.app devcon",
     "event_date": "2026-10-07",
     "location": "Berlin, Germany",
@@ -616,7 +583,7 @@
     "mode": "Offline"
   },
   {
-    "id": "28b1faf7-3d30-4526-b2c1-59d3d85d8833",
+    "id": "d863a775-32a1-48d5-8c66-4cdd6df68af5",
     "title": "unKonf",
     "event_date": "2026-10-10",
     "location": "Mannheim, Germany",
@@ -627,7 +594,7 @@
     "mode": "Offline"
   },
   {
-    "id": "8927a3ad-df5b-4fc1-afcc-d39a2157c7db",
+    "id": "5e1e33f1-3117-4120-9b64-36792b7c5b66",
     "title": "The Nordic APIs UnConference",
     "event_date": "2026-10-12",
     "location": "Stockholm, Sweden",
@@ -638,7 +605,7 @@
     "mode": "Offline"
   },
   {
-    "id": "5a682fc7-7b3c-4817-b3c8-4b0b6fb884c3",
+    "id": "132e9b4a-fae2-4861-9af3-a204d469d644",
     "title": "Software Architecture Summit",
     "event_date": "2026-10-12",
     "location": "Berlin, Germany",
@@ -649,7 +616,7 @@
     "mode": "Offline"
   },
   {
-    "id": "6dbc9a5e-ea53-43cd-8448-1098e4463f50",
+    "id": "10c0e372-a91b-4b8f-87e4-8d83fc79d9df",
     "title": "SwiftLeeds",
     "event_date": "2026-10-12",
     "location": "Virtual",
@@ -660,7 +627,7 @@
     "mode": "Online"
   },
   {
-    "id": "c7306154-5305-44bc-bb9e-986630ef5bee",
+    "id": "e93d6074-b651-42ad-ae6f-c80d8834ee2f",
     "title": "JavaScript & Angular Days",
     "event_date": "2026-10-12",
     "location": "Virtual",
@@ -671,7 +638,7 @@
     "mode": "Online"
   },
   {
-    "id": "e46b4e8a-6855-4525-9e13-9f59e0bcdbba",
+    "id": "ce48d8f2-5421-40c6-8dc0-39bdc37c0b3f",
     "title": "Platform Summit",
     "event_date": "2026-10-13",
     "location": "Stockholm, Sweden",
@@ -682,7 +649,7 @@
     "mode": "Offline"
   },
   {
-    "id": "b31a7686-a7dd-4017-bb04-42d602c0b490",
+    "id": "8f246244-2072-4d4f-85c3-9bfe577fea48",
     "title": "Fast Flow Conf",
     "event_date": "2026-10-13",
     "location": "London, U.K.",
@@ -693,7 +660,7 @@
     "mode": "Offline"
   },
   {
-    "id": "f01cded8-bc8a-412a-87a8-2daac00f2e1a",
+    "id": "9825c768-5a45-44d4-bc6c-c12dc232c499",
     "title": "TechBash",
     "event_date": "2026-10-13",
     "location": "Pocono Manor, PA, U.S.A.",
@@ -704,7 +671,7 @@
     "mode": "Offline"
   },
   {
-    "id": "49c59555-1cf7-4850-9a3d-77fb20b96fe1",
+    "id": "50aecc24-bcc0-474d-99fa-0977b8751238",
     "title": "betterCode() Java",
     "event_date": "2026-10-13",
     "location": "Virtual",
@@ -715,7 +682,7 @@
     "mode": "Online"
   },
   {
-    "id": "14b72927-011e-4d08-8ba1-99ddb7d4720e",
+    "id": "573cdce5-5cae-489f-a5ff-ea5bc58fbac6",
     "title": "Web3 Summit 2026",
     "event_date": "2026-10-14",
     "location": "Berlin, Germany",
@@ -726,7 +693,7 @@
     "mode": "Offline"
   },
   {
-    "id": "e4bd7b0e-3725-48bc-b810-59dd3d6c21f8",
+    "id": "855bd869-7d4d-4ac6-a69f-fbcc4cdbfaf4",
     "title": "EuroRust",
     "event_date": "2026-10-14",
     "location": "Barcelona, Spain",
@@ -737,7 +704,7 @@
     "mode": "Offline"
   },
   {
-    "id": "42568124-035a-4b8d-b296-f992aa2ea680",
+    "id": "04886b1f-ff16-4338-9736-cd54bd515e76",
     "title": "FLOCK - The Autonomous-Ops Summit by NeuBird AI",
     "event_date": "2026-10-14",
     "location": "San Francisco, CA, U.S.A.",
@@ -748,7 +715,7 @@
     "mode": "Offline"
   },
   {
-    "id": "efc89e94-6f88-4011-a909-6d8761faee84",
+    "id": "0192979f-fe05-4a2f-a5c7-978245b012b2",
     "title": "Test Automation Innovation Summit Johannesburg",
     "event_date": "2026-10-14",
     "location": "Johannesburg, South Africa",
@@ -759,7 +726,7 @@
     "mode": "Offline"
   },
   {
-    "id": "afe91c2d-9bdf-40db-a9e6-a1127ecab996",
+    "id": "d1f0599f-142d-4972-8d54-5c91b34ed139",
     "title": "KotlinLeeds",
     "event_date": "2026-10-15",
     "location": "Leeds, U.K.",
@@ -770,7 +737,7 @@
     "mode": "Offline"
   },
   {
-    "id": "2d72e025-6b48-4652-9a98-f022dda68849",
+    "id": "0bf1b580-ffb9-4d38-94a5-3612c8ac48b3",
     "title": "Minds Mastering Machines - M3: LLMs im Unternehmen",
     "event_date": "2026-10-15",
     "location": "Virtual",
@@ -781,7 +748,7 @@
     "mode": "Online"
   },
   {
-    "id": "4d253d3f-06a3-44b2-a3b0-cfb083eea55d",
+    "id": "4bf5e292-0880-4f00-8e36-5d6940488846",
     "title": "2nd International Conference on Artificial Intelligence and Big Data Analytics",
     "event_date": "2026-10-15",
     "location": "Singapore, Singapore",
@@ -792,7 +759,7 @@
     "mode": "Offline"
   },
   {
-    "id": "a7263cf5-fd86-4121-a837-2f437814a28c",
+    "id": "0deeb745-3d2d-4937-9c53-7417923343e7",
     "title": "X-Ops Conference Dubai",
     "event_date": "2026-10-15",
     "location": "Dubai, United Arab Emirates",
@@ -803,7 +770,7 @@
     "mode": "Offline"
   },
   {
-    "id": "288be359-2c02-4066-aec6-ea9ccafdcb5e",
+    "id": "c9b11132-a7cd-4b8d-8497-7a2d6d00b04c",
     "title": "Conversations Roadshow: Stockholm by CTO Craft",
     "event_date": "2026-10-15",
     "location": "Stockholm, Sweden",
@@ -814,7 +781,7 @@
     "mode": "Offline"
   },
   {
-    "id": "ccddc8ab-e204-402b-92ed-0efdcafe15f2",
+    "id": "1a058d48-9951-4f42-8045-62f96c96a850",
     "title": "Joomla! World Conference",
     "event_date": "2026-10-16",
     "location": "Virtual",
@@ -825,7 +792,7 @@
     "mode": "Online"
   },
   {
-    "id": "0c139d05-7a10-470c-be2e-46f8b1f5ce47",
+    "id": "38fc51e9-fd8c-4361-84f3-9b370df683e0",
     "title": "Just Product",
     "event_date": "2026-10-16",
     "location": "Virtual",
@@ -836,7 +803,7 @@
     "mode": "Online"
   },
   {
-    "id": "e3e90398-6ed5-4986-b767-e5bc8930e758",
+    "id": "3719ca7d-3ee6-448e-a5d7-0cbfc54671a3",
     "title": "MIT AI Conference",
     "event_date": "2026-10-17",
     "location": "Mountain View, CA, U.S.A.",
@@ -847,7 +814,7 @@
     "mode": "Offline"
   },
   {
-    "id": "ced77d03-bcb7-43f8-ada5-5a9d67dff386",
+    "id": "0f8df470-6e37-49a5-9db8-82451e9f7cd0",
     "title": "Global Summit on Data Science and Cloud Computing",
     "event_date": "2026-10-19",
     "location": "Rome, Italy",
@@ -858,7 +825,7 @@
     "mode": "Offline"
   },
   {
-    "id": "64cce899-226f-4358-b9dd-3aabec5b617f",
+    "id": "824d864f-5982-4c0d-a9b1-c86478f7a485",
     "title": "TechEx Europe",
     "event_date": "2026-10-19",
     "location": "Amsterdam, Netherlands",
@@ -869,7 +836,7 @@
     "mode": "Offline"
   },
   {
-    "id": "1285e6c2-0ee4-4136-8ef4-bc8d22652668",
+    "id": "7703e5a2-8e9b-4b12-95b8-12bc11157ed6",
     "title": "PGconf.EU",
     "event_date": "2026-10-20",
     "location": "Valencia, Spain",
@@ -880,7 +847,7 @@
     "mode": "Offline"
   },
   {
-    "id": "0985afe9-5e13-41f3-8064-91a2b330891b",
+    "id": "bde868c9-c4fc-4cac-9e8e-8d24fef0b13f",
     "title": "swampUP Europe",
     "event_date": "2026-10-20",
     "location": "Barcelona, Spain",
@@ -891,7 +858,7 @@
     "mode": "Offline"
   },
   {
-    "id": "dfef43bc-16f2-4d25-b8a9-661a8b1b21e8",
+    "id": "49da7f3d-4008-4ca8-992a-6da594814b28",
     "title": "Umbracokalaset",
     "event_date": "2026-10-20",
     "location": "Stockholm, Sweden",
@@ -902,7 +869,7 @@
     "mode": "Offline"
   },
   {
-    "id": "7f2bdd99-d9ad-40d8-89fe-f90ff1c9bdd9",
+    "id": "f0211771-f315-4208-913e-9458872e2c62",
     "title": "Conversations Roadshow: London by CTO Craft",
     "event_date": "2026-10-20",
     "location": "London, U.K.",
@@ -913,7 +880,7 @@
     "mode": "Offline"
   },
   {
-    "id": "4850db90-91e6-41ae-8508-306468ba9788",
+    "id": "b96531ad-5334-465f-a598-8aff4caff623",
     "title": "JDD",
     "event_date": "2026-10-20",
     "location": "Kraków, Poland",
@@ -924,7 +891,7 @@
     "mode": "Offline"
   },
   {
-    "id": "c9a824b1-ee22-4d69-bc70-12350b5df47b",
+    "id": "de839740-079c-4035-9a04-a08346ad4b73",
     "title": "AMTSO Cyber Research Conference",
     "event_date": "2026-10-20",
     "location": "Brussels, Belgium",
@@ -935,7 +902,7 @@
     "mode": "Offline"
   },
   {
-    "id": "6990d81d-fc68-47e0-9556-9a928e2e86c4",
+    "id": "097c3c44-19c9-42a5-9277-247bc38f2ba3",
     "title": "Testcon",
     "event_date": "2026-10-20",
     "location": "Virtual",
@@ -946,7 +913,7 @@
     "mode": "Online"
   },
   {
-    "id": "9c4c80df-deb6-4c61-981f-b52db9d606cf",
+    "id": "1fe7efc9-62a1-4138-9e06-46f83946e533",
     "title": "CityJS Conference Athens",
     "event_date": "2026-10-21",
     "location": "Athens, Greece",
@@ -957,7 +924,7 @@
     "mode": "Offline"
   },
   {
-    "id": "84d9ed18-83ec-4439-8762-9b694b85fe67",
+    "id": "fe992905-1a98-438c-8b80-cc78ce533b96",
     "title": "All Day AI",
     "event_date": "2026-10-22",
     "location": "Virtual",
@@ -968,7 +935,7 @@
     "mode": "Online"
   },
   {
-    "id": "6488cf4a-30b3-481a-8a94-e5b7a3576e1c",
+    "id": "7ab76f71-c24b-42b8-ab4f-d0b1a4cbe2a5",
     "title": "Great Lakes Software Symposium",
     "event_date": "2026-10-22",
     "location": "Chicago, IL, U.S.A.",
@@ -979,7 +946,7 @@
     "mode": "Offline"
   },
   {
-    "id": "1bbe9351-d178-4084-a8a7-9d9da36b8e52",
+    "id": "dbdc4e8e-439d-435b-b456-13c5465d0e86",
     "title": "Test Automation Innovation Summit",
     "event_date": "2026-10-22",
     "location": "Manila, Philippines",
@@ -990,7 +957,7 @@
     "mode": "Offline"
   },
   {
-    "id": "f6676304-fbc2-4b47-b302-e9ec242df4af",
+    "id": "5b0c1095-7052-43d1-82a0-dad097ab5991",
     "title": "PUSH UX",
     "event_date": "2026-10-22",
     "location": "Munich, Germany",
@@ -1001,7 +968,7 @@
     "mode": "Offline"
   },
   {
-    "id": "6175f7e5-5a47-490e-bc0f-ac38c534e583",
+    "id": "39ff0322-1645-44c8-8664-686214320356",
     "title": "MAUI Day Cologne",
     "event_date": "2026-10-23",
     "location": "Cologne, Germany",
@@ -1012,7 +979,7 @@
     "mode": "Offline"
   },
   {
-    "id": "d586a3fd-9727-4fce-af33-6c250807744d",
+    "id": "7e500b37-8292-49c2-9ab6-78ce2883335f",
     "title": "EKON | Oktober Düsseldorf",
     "event_date": "2026-10-23",
     "location": "Düsseldorf, Germany",
@@ -1023,7 +990,7 @@
     "mode": "Offline"
   },
   {
-    "id": "f07f70cf-8afb-48f5-9759-9029e2e60e8a",
+    "id": "c2881f09-7c47-4508-94ff-8c72c78e8d22",
     "title": "TechLead Conference London",
     "event_date": "2026-10-23",
     "location": "London, U.K.",
@@ -1034,7 +1001,7 @@
     "mode": "Offline"
   },
   {
-    "id": "fbcc1e6e-c0b4-4416-983d-c2fa78a13069",
+    "id": "4b762852-fff5-435a-80d4-b842bdd57260",
     "title": "React Advanced",
     "event_date": "2026-10-23",
     "location": "Virtual",
@@ -1045,7 +1012,7 @@
     "mode": "Online"
   },
   {
-    "id": "62ec0fb8-5a46-4dc5-8e5c-7b8faf0b2444",
+    "id": "8a30169c-f8a7-43bd-b45c-52c7e4ec54d5",
     "title": "Open Source Observability Day",
     "event_date": "2026-10-23",
     "location": "Virtual",
@@ -1056,7 +1023,7 @@
     "mode": "Online"
   },
   {
-    "id": "b4b4ec4b-893b-4df0-81ed-b9586d7c725d",
+    "id": "9a525ca6-6676-42d1-9e5c-368e0fd72fe3",
     "title": "Vector in Databases",
     "event_date": "2026-10-24",
     "location": "Virtual",
@@ -1067,7 +1034,7 @@
     "mode": "Online"
   },
   {
-    "id": "8852adeb-e38f-4333-9a8e-59c29e3ae537",
+    "id": "31d048ac-3411-4874-a863-e938a2d842f8",
     "title": "webinale Munich",
     "event_date": "2026-10-26",
     "location": "Munich, Germany",
@@ -1078,7 +1045,7 @@
     "mode": "Offline"
   },
   {
-    "id": "c5e2a17a-1092-4424-a0ab-60d2662d14a1",
+    "id": "9aef001a-f6e7-4084-9d1d-95b9b4a2760d",
     "title": "KubeCon + CloudNativeCon North America",
     "event_date": "2026-10-26",
     "location": "Los Angeles, CA, U.S.A.",
@@ -1089,7 +1056,7 @@
     "mode": "Offline"
   },
   {
-    "id": "7cda4a78-6249-41e4-8b52-867d1a947634",
+    "id": "c4e0ac56-06c0-47fa-b622-a0a4e6eda351",
     "title": "The ACS/IEEE 23rd International Conference on Computer Systems and Applications",
     "event_date": "2026-10-26",
     "location": "Dubai, United Arab Emirates",
@@ -1100,7 +1067,7 @@
     "mode": "Offline"
   },
   {
-    "id": "a3482f21-54ef-40af-8fa7-f5365d03ecb5",
+    "id": "8522c005-2082-477c-8b71-2d4c65fdce86",
     "title": "JCON USA",
     "event_date": "2026-10-26",
     "location": "Atlanta, GA, U.S.A.",
@@ -1111,7 +1078,7 @@
     "mode": "Offline"
   },
   {
-    "id": "f850d699-cf32-4c13-bef2-c27121ab1933",
+    "id": "cbf50e22-2440-4613-89e1-c0c2cb3f08ce",
     "title": "International JavaScript Conference Munich",
     "event_date": "2026-10-26",
     "location": "Virtual",
@@ -1122,7 +1089,7 @@
     "mode": "Online"
   },
   {
-    "id": "12d6e4ac-308d-4230-9d95-13d4f2048af9",
+    "id": "f871e94f-d838-4b07-b948-caa2d9e79cc5",
     "title": "International PHP Conference Munich",
     "event_date": "2026-10-26",
     "location": "Virtual",
@@ -1133,18 +1100,18 @@
     "mode": "Online"
   },
   {
-    "id": "ad9f5488-5520-4935-869e-43c3bf239800",
+    "id": "8dde77fd-c030-4c8e-882f-d0528992295f",
     "title": "DEAI Summit",
     "event_date": "2026-10-27",
     "location": "Is-Siggiewi, Malta",
     "url": "https://www.web3events.guide/events/deai-summit-cwzxiegm",
     "category": "Web3",
     "platform_source": "web3events.guide",
-    "fee_type": "Free",
+    "fee_type": "Paid",
     "mode": "Offline"
   },
   {
-    "id": "485f03d4-eba0-4f32-836a-ebe835b0d641",
+    "id": "46d9801f-fcaa-46cf-9f15-90ec4c342d7a",
     "title": "SEV0",
     "event_date": "2026-10-27",
     "location": "San Francisco, CA, U.S.A.",
@@ -1155,7 +1122,7 @@
     "mode": "Offline"
   },
   {
-    "id": "d75d48f2-c848-4062-980b-c1276d5bf2b9",
+    "id": "7780d6bc-a3ef-472c-ac14-05eb1219524e",
     "title": "Futureproof Festival",
     "event_date": "2026-10-28",
     "location": "Vancouver, Canada",
@@ -1166,7 +1133,7 @@
     "mode": "Offline"
   },
   {
-    "id": "450694bb-b9e3-471c-8b2e-86bb214db899",
+    "id": "027822f9-e025-4421-8fb4-7b51f0b4da0a",
     "title": "Mozilla Festival",
     "event_date": "2026-10-28",
     "location": "Barcelona, Spain",
@@ -1177,7 +1144,7 @@
     "mode": "Offline"
   },
   {
-    "id": "051b7718-5f3a-48b1-ab70-ab61466f9cf8",
+    "id": "61597d8c-a181-47fe-b924-ca5fcdd135a5",
     "title": "Wey Wey Web",
     "event_date": "2026-10-29",
     "location": "Virtual",
@@ -1188,7 +1155,7 @@
     "mode": "Online"
   },
   {
-    "id": "ecde99f8-383d-4d9c-afca-37cb7865c82d",
+    "id": "0c927c41-c2fe-47e7-adfd-231e0e9b9846",
     "title": "J On The Beach",
     "event_date": "2026-10-29",
     "location": "Malaga, Spain",
@@ -1199,7 +1166,7 @@
     "mode": "Offline"
   },
   {
-    "id": "ff72e7cd-396b-4618-b3ea-a62eb3911f1b",
+    "id": "62d8f75c-e30e-4415-bbf3-95b3c21dd280",
     "title": "Lambda World",
     "event_date": "2026-10-29",
     "location": "Malaga, Spain",
@@ -1210,18 +1177,18 @@
     "mode": "Offline"
   },
   {
-    "id": "52088116-ce9f-46c2-a9e3-bced2e049c47",
+    "id": "c1caa318-eb3d-4767-89dd-419772368b52",
     "title": "Solana Hacker House",
     "event_date": "2026-10-31",
     "location": "London, United Kingdom",
     "url": "https://www.web3events.guide/events/solana-hacker-house-guokpxup",
     "category": "Web3",
     "platform_source": "web3events.guide",
-    "fee_type": "Free",
+    "fee_type": "Paid",
     "mode": "Offline"
   },
   {
-    "id": "b0153b24-ea30-4cab-a64c-b8a0da412a68",
+    "id": "f140c9bb-4c02-457d-a462-bb65a9f23bbd",
     "title": "Nullcon Berlin",
     "event_date": "2026-11-02",
     "location": "Berlin, Germany",
@@ -1232,7 +1199,7 @@
     "mode": "Offline"
   },
   {
-    "id": "20fc342a-b9ea-4f39-aed3-23db703e5610",
+    "id": "f0259307-9103-4f17-9f4e-17a6648f6a5d",
     "title": "Open Source Analytics Conference",
     "event_date": "2026-11-02",
     "location": "Virtual",
@@ -1243,7 +1210,7 @@
     "mode": "Online"
   },
   {
-    "id": "f469251e-7a82-4cce-bf53-25d6b3f794dd",
+    "id": "a8d008b6-d231-47cb-b83b-a9dd77a3a6f6",
     "title": "AI DevCon NYC",
     "event_date": "2026-11-02",
     "location": "Virtual",
@@ -1254,7 +1221,7 @@
     "mode": "Online"
   },
   {
-    "id": "4b98ee24-faeb-4c3b-9b7c-4ecc1e09080a",
+    "id": "b4683cd1-7169-4c0e-b832-140fae8d3e22",
     "title": "CTO Craft Con: Fintech",
     "event_date": "2026-11-02",
     "location": "London, U.K.",
@@ -1265,7 +1232,7 @@
     "mode": "Offline"
   },
   {
-    "id": "925d3f36-57e6-414c-92cd-7c9a243ee2d0",
+    "id": "9fdd5040-56db-4870-8571-b100d6c35a3f",
     "title": "W-JAX München",
     "event_date": "2026-11-02",
     "location": "Virtual",
@@ -1276,7 +1243,7 @@
     "mode": "Online"
   },
   {
-    "id": "9651a0aa-919e-4a81-8e7e-51fb6226e2d9",
+    "id": "39b82780-6cdd-4dda-8368-e96a56d7b8d1",
     "title": "Devcon 8",
     "event_date": "2026-11-03",
     "location": "Mumbai, India",
@@ -1287,7 +1254,7 @@
     "mode": "Offline"
   },
   {
-    "id": "46e3903c-a091-4d17-af82-9b68fe6e7d58",
+    "id": "b62d118c-b906-479c-8e92-4938fb652af0",
     "title": "The AI Conf",
     "event_date": "2026-11-03",
     "location": "Barcelona, Spain",
@@ -1298,7 +1265,7 @@
     "mode": "Offline"
   },
   {
-    "id": "03442149-5e12-4e3e-97f5-b320bbe4d23d",
+    "id": "e85e5d0f-9099-435f-a83f-24dc1fe7dcc4",
     "title": "S2N: Storage Server Network",
     "event_date": "2026-11-03",
     "location": "Berlin, Germany",
@@ -1309,7 +1276,7 @@
     "mode": "Offline"
   },
   {
-    "id": "0bfe0528-47d7-41fe-adb6-356db9a7ef68",
+    "id": "22fe1e2c-0c1f-4ae8-bcfc-0371d7984b5e",
     "title": "XtremeJ",
     "event_date": "2026-11-03",
     "location": "Virtual",
@@ -1320,7 +1287,7 @@
     "mode": "Online"
   },
   {
-    "id": "87793d33-f972-460b-966e-cf09d441298b",
+    "id": "23fffa25-dfa8-4179-8882-aed2e901cc63",
     "title": "AutomationSTAR Conference",
     "event_date": "2026-11-04",
     "location": "Antwerp, Belgium",
@@ -1331,7 +1298,7 @@
     "mode": "Offline"
   },
   {
-    "id": "df7fad24-2048-4154-9611-2dff50178b50",
+    "id": "d1ede705-db2f-4120-824f-8a786f528804",
     "title": "Heapcon",
     "event_date": "2026-11-05",
     "location": "Belgrade, Serbia",
@@ -1342,7 +1309,7 @@
     "mode": "Offline"
   },
   {
-    "id": "78f1534c-c7ac-4fbb-89ff-17918d64934e",
+    "id": "863cdc55-d3bc-4d6e-a987-f6883c04beca",
     "title": "bitcoin++ privacy edition",
     "event_date": "2026-11-05",
     "location": "Seoul, South Korea",
@@ -1353,7 +1320,7 @@
     "mode": "Offline"
   },
   {
-    "id": "65e8aefc-fcd9-4259-9320-ac20545931ac",
+    "id": "40832be5-0a3a-4a2b-833e-9e73079866aa",
     "title": "Moldova DevCon",
     "event_date": "2026-11-06",
     "location": "Chișinău, Moldova",
@@ -1364,7 +1331,7 @@
     "mode": "Offline"
   },
   {
-    "id": "c974cd46-e055-4651-b21c-2719adce8645",
+    "id": "409a46c9-3a06-415b-be75-833c8c76def6",
     "title": "UX Brighton",
     "event_date": "2026-11-06",
     "location": "Brighton, U.K.",
@@ -1375,7 +1342,7 @@
     "mode": "Offline"
   },
   {
-    "id": "44bfe17f-cf26-4eca-b389-97a468332e2c",
+    "id": "fb7ac991-31bc-47f4-8d33-49fc0f7a96b0",
     "title": "Web Summit 2026",
     "event_date": "2026-11-09",
     "location": "Lisbon, Portugal",
@@ -1386,7 +1353,7 @@
     "mode": "Offline"
   },
   {
-    "id": "f1ec4660-b416-4a67-81a7-80e1ceb80ce2",
+    "id": "8d76fe48-ca9b-47e3-a51d-06760e77fef1",
     "title": "LeadDev Berlin",
     "event_date": "2026-11-09",
     "location": "Berlin, Germany",
@@ -1397,7 +1364,7 @@
     "mode": "Offline"
   },
   {
-    "id": "a3bd2bd6-eb2c-4d43-8f01-9babd2a1a9b3",
+    "id": "361532f4-cc09-4020-9c4a-7aaaedc33b2d",
     "title": "Gerrit User Summit",
     "event_date": "2026-11-09",
     "location": "San Francisco, CA, U.S.A.",
@@ -1408,7 +1375,7 @@
     "mode": "Offline"
   },
   {
-    "id": "ac63a2ba-72a5-4fe2-a1b7-9dce30aab8e0",
+    "id": "f4e20096-9d94-4be6-8957-f4af24f7e363",
     "title": "Unhacked 360 Germany: FutureSec Summit",
     "event_date": "2026-11-09",
     "location": "Virtual",
@@ -1419,7 +1386,7 @@
     "mode": "Online"
   },
   {
-    "id": "fbc83061-378e-4806-a4be-a1768794a06f",
+    "id": "4c466402-8055-405c-b238-32ec75879ada",
     "title": "Porto Tech Hub Conference",
     "event_date": "2026-11-10",
     "location": "Porto, Portugal",
@@ -1430,7 +1397,7 @@
     "mode": "Offline"
   },
   {
-    "id": "6a28fdc8-5915-470e-aee2-b2c7037df1ed",
+    "id": "bed2c8f0-eb65-4c1e-b612-6a894cea4a71",
     "title": "XtremeJS Online Conference",
     "event_date": "2026-11-10",
     "location": "Virtual",
@@ -1441,7 +1408,7 @@
     "mode": "Online"
   },
   {
-    "id": "f3a15196-31f9-4ce3-8109-d235b1850f80",
+    "id": "ba4d1729-8593-401e-826c-d3f0865413d2",
     "title": "CLC",
     "event_date": "2026-11-11",
     "location": "Mannheim, Germany",
@@ -1452,7 +1419,7 @@
     "mode": "Offline"
   },
   {
-    "id": "585b609f-e05d-4286-97a6-74d366dd2571",
+    "id": "42483984-c236-4164-bfe9-7f1ead8fea8c",
     "title": "SpiceWorld",
     "event_date": "2026-11-12",
     "location": "Austin, TX, U.S.A.",
@@ -1463,7 +1430,7 @@
     "mode": "Offline"
   },
   {
-    "id": "86e12cce-8fa3-440a-8d1b-8cdba77132ca",
+    "id": "8a33d80c-387d-4205-acff-337b542ef15d",
     "title": "CMS Conf",
     "event_date": "2026-11-12",
     "location": "Gdynia, Poland",
@@ -1474,7 +1441,7 @@
     "mode": "Offline"
   },
   {
-    "id": "eae25361-8d53-4201-8427-dfb2e1b3aecc",
+    "id": "fdaa9181-f1b6-448d-9f39-bb0e50780d26",
     "title": "Ubuntu Summit",
     "event_date": "2026-11-12",
     "location": "Virtual",
@@ -1485,7 +1452,7 @@
     "mode": "Online"
   },
   {
-    "id": "d27ba022-b897-475a-a4ab-695fa698e9b1",
+    "id": "ec762cfa-6c56-4a38-9b24-914be09f86b2",
     "title": "Tokyo Test Fest",
     "event_date": "2026-11-12",
     "location": "Tokyo, Japan",
@@ -1496,18 +1463,18 @@
     "mode": "Offline"
   },
   {
-    "id": "f3907d1c-5116-4d57-92a0-a6d05a19464d",
+    "id": "8a864506-658c-4ce9-90ff-858803948945",
     "title": "Solana Breakpoint 2026",
     "event_date": "2026-11-14",
     "location": "London, United Kingdom",
     "url": "https://www.web3events.guide/events/solana-breakpoint-2026-prup4prd",
     "category": "Web3",
     "platform_source": "web3events.guide",
-    "fee_type": "Free",
+    "fee_type": "Paid",
     "mode": "Offline"
   },
   {
-    "id": "bd0ffbc6-cdd7-4def-919e-41e42d58ce86",
+    "id": "e5bf4dad-0f5b-4c55-bb06-7cfc7213d6e0",
     "title": "Solana Breakpoint 2026",
     "event_date": "2026-11-15",
     "location": "London, UK",
@@ -1518,7 +1485,7 @@
     "mode": "Offline"
   },
   {
-    "id": "270dec67-5b2c-414f-8e39-328794627355",
+    "id": "bfbf8add-7753-4dad-a500-cf0ed17bc1bf",
     "title": "API Conference Berlin",
     "event_date": "2026-11-16",
     "location": "Virtual",
@@ -1529,7 +1496,7 @@
     "mode": "Online"
   },
   {
-    "id": "e3ba356a-2a9e-43bc-9a8b-134b5d28c24f",
+    "id": "78469434-a970-4767-a528-c9b29a037c5e",
     "title": "AI Engineering Summit",
     "event_date": "2026-11-16",
     "location": "Berlin, Germany",
@@ -1540,7 +1507,7 @@
     "mode": "Offline"
   },
   {
-    "id": "0ecf3031-9e66-4fc1-9af8-77be3910cd11",
+    "id": "f3c8ca28-132d-41aa-a628-37e162ac7f45",
     "title": "MLCon Berlin",
     "event_date": "2026-11-16",
     "location": "Virtual",
@@ -1551,7 +1518,7 @@
     "mode": "Online"
   },
   {
-    "id": "adc4f155-4df9-4d5d-ae32-4b74ecfda342",
+    "id": "f9181e13-9136-4e1a-bac1-d89d75d0795f",
     "title": "VibeKode Berlin",
     "event_date": "2026-11-16",
     "location": "Virtual",
@@ -1562,7 +1529,7 @@
     "mode": "Online"
   },
   {
-    "id": "77dfcb44-2a35-4391-80a4-b3d900b9bb80",
+    "id": "948a5a33-909e-4679-b942-5751cc141f36",
     "title": "NextGen Intelligence Conference: Data, Cloud & AI",
     "event_date": "2026-11-16",
     "location": "Virtual",
@@ -1573,7 +1540,7 @@
     "mode": "Online"
   },
   {
-    "id": "71c08f58-8c33-4b83-ba4a-42858e6cda04",
+    "id": "f2b06387-7ca9-4b4e-bb50-b1d238bf7c8c",
     "title": "Software Architecture Gathering",
     "event_date": "2026-11-16",
     "location": "Berlin, Germany",
@@ -1584,7 +1551,7 @@
     "mode": "Offline"
   },
   {
-    "id": "78b31a8f-4b90-4ef9-aa23-ff2d3ddd3f9d",
+    "id": "b7763dfd-8680-4993-838a-e00919af4d66",
     "title": "HalfStack Vienna",
     "event_date": "2026-11-16",
     "location": "Vienna, Austria",
@@ -1595,7 +1562,7 @@
     "mode": "Offline"
   },
   {
-    "id": "cca3087b-8158-4f5d-86da-ff41c0624fdb",
+    "id": "f2d640c8-ae30-4150-988f-fd840174486e",
     "title": "AI Coding Summit New York Edition",
     "event_date": "2026-11-16",
     "location": "New York, NY, U.S.A.",
@@ -1606,7 +1573,7 @@
     "mode": "Offline"
   },
   {
-    "id": "8f98204a-8158-48fe-a17b-bd23fd239cfc",
+    "id": "16852858-81f8-4ccd-ab8b-1297a07203f8",
     "title": "JSNation US",
     "event_date": "2026-11-16",
     "location": "New York, NY, U.S.A.",
@@ -1617,7 +1584,7 @@
     "mode": "Offline"
   },
   {
-    "id": "8567a41a-967a-487b-8459-355a8b74a523",
+    "id": "9b796c4d-2b64-46e5-bceb-5a43cd41a535",
     "title": "Agile Testing Days",
     "event_date": "2026-11-16",
     "location": "Virtual",
@@ -1628,7 +1595,7 @@
     "mode": "Online"
   },
   {
-    "id": "0f033382-3a16-4e04-a519-fdfe44db9eec",
+    "id": "acef7709-15bd-4391-88c3-95436dfd9704",
     "title": "betterCode() .NET 11.0",
     "event_date": "2026-11-17",
     "location": "Virtual",
@@ -1639,7 +1606,7 @@
     "mode": "Online"
   },
   {
-    "id": "77f0e1cc-779f-458e-8946-a863b12e4578",
+    "id": "6c87abd0-dc5b-400d-90ab-8f1508e778ef",
     "title": "React Summit US",
     "event_date": "2026-11-17",
     "location": "Virtual",
@@ -1650,7 +1617,7 @@
     "mode": "Online"
   },
   {
-    "id": "2bbb93dc-db5e-45a4-894e-ee1e780d02c6",
+    "id": "4a7f377a-6bc8-4c19-b871-e9bee299afba",
     "title": "Open Source Monitoring conference",
     "event_date": "2026-11-17",
     "location": "Nürnberg, Germany",
@@ -1661,7 +1628,7 @@
     "mode": "Offline"
   },
   {
-    "id": "74a0cdd5-56c1-4663-bf41-1c31c5a7e97c",
+    "id": "d45fcab3-81ef-4775-80dd-8d9d4e71dbdb",
     "title": "XtremePython Online Conference",
     "event_date": "2026-11-17",
     "location": "Virtual",
@@ -1672,7 +1639,7 @@
     "mode": "Online"
   },
   {
-    "id": "37360bf7-6c92-4025-a95a-2ddd6c431f73",
+    "id": "dfcf7740-8a0c-4236-927a-8d886962ab0b",
     "title": "Community Over Code Sydney",
     "event_date": "2026-11-18",
     "location": "Sydney, Australia",
@@ -1683,7 +1650,7 @@
     "mode": "Offline"
   },
   {
-    "id": "63c58d4c-a692-4ac0-a02c-4b5acb04becd",
+    "id": "8ed4c4b7-3c37-4563-b1cf-fb902452631c",
     "title": "ASF Community Over Code / ChurConf",
     "event_date": "2026-11-18",
     "location": "Sidney, Australia",
@@ -1694,7 +1661,7 @@
     "mode": "Offline"
   },
   {
-    "id": "e06ad1d1-0e6e-4e20-9b36-4532b01b1e7f",
+    "id": "65825701-eb25-46bf-a866-83eb253a7f6b",
     "title": "X-Ops Conference Madrid",
     "event_date": "2026-11-19",
     "location": "Madrid, Spain",
@@ -1705,7 +1672,7 @@
     "mode": "Offline"
   },
   {
-    "id": "d1f31572-4c7c-4510-9013-f9a00f9194ec",
+    "id": "e11ca316-f067-4eb2-8c90-08693f18de6c",
     "title": "inside agile Product Owner Day",
     "event_date": "2026-11-19",
     "location": "Virtual",
@@ -1716,7 +1683,7 @@
     "mode": "Online"
   },
   {
-    "id": "65b8fe57-f9db-4024-a75f-263b974bdce9",
+    "id": "7b2d60e3-fb6c-4494-bca7-fb9eaa1bde32",
     "title": "droidCon India",
     "event_date": "2026-11-20",
     "location": "Bengaluru, India",
@@ -1727,7 +1694,7 @@
     "mode": "Offline"
   },
   {
-    "id": "c5c0e1a5-1c34-4604-887d-a022d7137031",
+    "id": "86e22c8e-381a-405e-82ef-3e58165db949",
     "title": "Agentic Engineering Days Zurich",
     "event_date": "2026-11-20",
     "location": "Zurich, Switzerland",
@@ -1738,7 +1705,7 @@
     "mode": "Offline"
   },
   {
-    "id": "baea1ad4-e3fb-443d-9f42-269f73759f1c",
+    "id": "d989a93d-6f00-4263-95fe-41fd5ea7161f",
     "title": "flutterCon India",
     "event_date": "2026-11-21",
     "location": "Bangalore, India",
@@ -1749,7 +1716,7 @@
     "mode": "Offline"
   },
   {
-    "id": "4f79141c-918a-4197-8058-14a3454970f0",
+    "id": "306cea5c-0774-47f0-b3a6-8ded734d91d8",
     "title": "DDC .NET Developer Conference",
     "event_date": "2026-11-23",
     "location": "Cologne, Germany",
@@ -1760,7 +1727,7 @@
     "mode": "Offline"
   },
   {
-    "id": "773e9639-8685-49f6-a5a1-1caf1a83f81d",
+    "id": "110db2b1-0d1d-4610-9763-0b9f7f4acbb4",
     "title": "XtremeAI Online Conference",
     "event_date": "2026-11-24",
     "location": "Virtual",
@@ -1771,7 +1738,7 @@
     "mode": "Online"
   },
   {
-    "id": "1af649f1-1b99-4fa5-a44e-3784ac7abb16",
+    "id": "b1654e2d-1ae5-4919-99fb-7c3698fe9a0e",
     "title": "Big Data Europe",
     "event_date": "2026-11-24",
     "location": "Virtual",
@@ -1782,7 +1749,7 @@
     "mode": "Online"
   },
   {
-    "id": "711f0d49-6f03-4c22-91d0-780808788fd3",
+    "id": "1e3ca281-f54c-4a60-9efa-bfd6e47dd10a",
     "title": "Binance Blockchain Week Bangkok 2026",
     "event_date": "2026-11-25",
     "location": "Bangkok, Thailand",
@@ -1793,7 +1760,7 @@
     "mode": "Offline"
   },
   {
-    "id": "c4ca3e15-6c6c-4dff-acdb-738106eb1ab5",
+    "id": "7766b647-07a3-4ed0-80b8-9cd0d3316aad",
     "title": "AI World Congress",
     "event_date": "2026-11-25",
     "location": "London, U.K.",
@@ -1804,7 +1771,7 @@
     "mode": "Offline"
   },
   {
-    "id": "ccd64f08-ef5b-4678-93f9-40852097cb08",
+    "id": "ed195190-2341-431e-b07e-09252739d59b",
     "title": "WeAreDevelopers Conference India",
     "event_date": "2026-11-25",
     "location": "Bengaluru, India",
@@ -1815,7 +1782,7 @@
     "mode": "Offline"
   },
   {
-    "id": "84a16c15-8fed-437b-88fc-3f2a31194ec4",
+    "id": "ebfd50ac-af88-4dc6-b66a-0758006a8adb",
     "title": "EdTech Conference",
     "event_date": "2026-11-26",
     "location": "London, U.K.",
@@ -1826,7 +1793,7 @@
     "mode": "Offline"
   },
   {
-    "id": "1b985370-5372-4b76-833f-9abe3cc8f98f",
+    "id": "5261ff90-9628-4fa3-9d01-184ebd7fa699",
     "title": "SymfonyCon",
     "event_date": "2026-11-26",
     "location": "Warsaw, Poland",
@@ -1837,7 +1804,7 @@
     "mode": "Offline"
   },
   {
-    "id": "7f3a5324-b266-478b-a73a-91769e6e16ef",
+    "id": "f6b6a55e-7ab0-49b9-b1a8-9517b71a05af",
     "title": "betterCode() Rust",
     "event_date": "2026-11-26",
     "location": "Virtual",
@@ -1848,7 +1815,7 @@
     "mode": "Online"
   },
   {
-    "id": "76595f70-2ce3-48e8-bd1f-bd62cbea33ff",
+    "id": "bdbd08c3-d374-4558-b2aa-5477c55301b1",
     "title": "Workplace Ninjas India",
     "event_date": "2026-11-27",
     "location": "Delhi, India",
@@ -1859,7 +1826,7 @@
     "mode": "Offline"
   },
   {
-    "id": "6acf5da4-110d-4ffc-90e1-ca725bb73ff9",
+    "id": "367039d7-8518-4d6f-9e35-8cbcd240a334",
     "title": "FOSS for All Conference",
     "event_date": "2026-11-28",
     "location": "Seoul, South Korea",
@@ -1870,7 +1837,7 @@
     "mode": "Offline"
   },
   {
-    "id": "2cf9fe80-1f8c-474d-bcb4-428a11065c24",
+    "id": "91c18034-1beb-4594-a06a-57528d6a0283",
     "title": "APIConf",
     "event_date": "2026-11-30",
     "location": "Virtual",
@@ -1881,7 +1848,7 @@
     "mode": "Online"
   },
   {
-    "id": "1caf541c-7f07-41dd-8728-62b376240ed5",
+    "id": "bc208308-353e-4546-94de-63bbf6559b9b",
     "title": "ESPC",
     "event_date": "2026-11-30",
     "location": "Amsterdam, Netherlands",
@@ -1892,7 +1859,7 @@
     "mode": "Offline"
   },
   {
-    "id": "a48a539e-de79-45eb-86f5-4362a193a4cc",
+    "id": "ccefbd38-1967-4c50-b244-66908ca00323",
     "title": "DevOpsCon Munich",
     "event_date": "2026-11-30",
     "location": "Virtual",
@@ -1903,7 +1870,7 @@
     "mode": "Online"
   },
   {
-    "id": "fcf5fc56-3ed3-4930-a325-b282edfd32c8",
+    "id": "cde31501-ed39-4204-a405-cebcac358647",
     "title": "IT Security Summit Munich",
     "event_date": "2026-11-30",
     "location": "Virtual",
@@ -1914,7 +1881,7 @@
     "mode": "Online"
   },
   {
-    "id": "7fa63c61-a825-47fa-ac1d-218f3e1052e4",
+    "id": "b68a4f32-a348-449b-94ff-65b99763738e",
     "title": "Blockchain Life 2026",
     "event_date": "2026-12-01",
     "location": "Dubai, UAE",
@@ -1925,7 +1892,7 @@
     "mode": "Offline"
   },
   {
-    "id": "25d022fe-5ea9-46dd-9c61-9b5fb2e49789",
+    "id": "c49a047a-a30d-4bbb-862c-a313f4adb715",
     "title": "Build It Summit",
     "event_date": "2026-12-01",
     "location": "Paris, France",
@@ -1936,7 +1903,7 @@
     "mode": "Offline"
   },
   {
-    "id": "bf19a4fd-8c86-465d-9e63-5a29ec4db0db",
+    "id": "870b2aa4-d115-46ee-ae48-2d17b49489bf",
     "title": "inside agile: Agile Leadership Conference",
     "event_date": "2026-12-01",
     "location": "Virtual",
@@ -1947,7 +1914,7 @@
     "mode": "Online"
   },
   {
-    "id": "04391ec2-76e1-458d-ae6e-b7795632e75d",
+    "id": "657d3b40-5ceb-40d8-b5aa-8263c8ee9754",
     "title": "The Principal Dev – Masterclass for Tech Leads",
     "event_date": "2026-12-02",
     "location": "Online",
@@ -1958,7 +1925,7 @@
     "mode": "Online"
   },
   {
-    "id": "0b4a2cfc-e90b-4764-8604-96ba760eed12",
+    "id": "80138965-9ab8-401f-a23c-62d0623c498c",
     "title": "Tech Leader Summit",
     "event_date": "2026-12-02",
     "location": "Clearwater, FL, U.S.A.",
@@ -1969,7 +1936,7 @@
     "mode": "Offline"
   },
   {
-    "id": "ef7ffa25-4626-49f3-8a2e-64d35bf5f0de",
+    "id": "a19bd9ca-3fec-40c3-a824-c1431d133735",
     "title": "betterCode() PHP",
     "event_date": "2026-12-03",
     "location": "Virtual",
@@ -1980,7 +1947,7 @@
     "mode": "Online"
   },
   {
-    "id": "0564e8c2-4287-4113-96dc-10a36ed83646",
+    "id": "bf7b84be-ca95-4ead-9613-ad14d713c976",
     "title": "Write the Docs Australia",
     "event_date": "2026-12-03",
     "location": "Virtual",
@@ -1991,7 +1958,7 @@
     "mode": "Online"
   },
   {
-    "id": "fa616b2d-dbad-4b60-b567-3e850d24b454",
+    "id": "47a78393-58eb-4d9a-a260-af02bc9c0619",
     "title": "AI Coding Summit Berlin Edition",
     "event_date": "2026-12-04",
     "location": "Berlin, Germany",
@@ -2002,7 +1969,7 @@
     "mode": "Offline"
   },
   {
-    "id": "f499a797-a604-455d-9c5d-b23f591a3dab",
+    "id": "c4431677-4c1e-498b-bf1c-3391365359e1",
     "title": "React Day Berlin",
     "event_date": "2026-12-04",
     "location": "Virtual",
@@ -2013,7 +1980,7 @@
     "mode": "Online"
   },
   {
-    "id": "3b831b9c-3945-41ef-aa16-4c8634af02f8",
+    "id": "1a65cbd2-2251-4788-ada7-e9378bf31bee",
     "title": "IT-Tage",
     "event_date": "2026-12-07",
     "location": "Frankfurt am Main, Germany",
@@ -2024,7 +1991,7 @@
     "mode": "Offline"
   },
   {
-    "id": "d94ec350-2033-4d1b-9de8-b6f0dc7c6dc8",
+    "id": "4311e933-2978-4d15-8dc7-32b944bd58fb",
     "title": "ArchConf",
     "event_date": "2026-12-07",
     "location": "Clearwater, FL, U.S.A.",
@@ -2035,7 +2002,7 @@
     "mode": "Offline"
   },
   {
-    "id": "23584f23-7b57-4eaa-b520-795abaea4627",
+    "id": "73309598-2cc6-4702-8f62-a9f63ff8187b",
     "title": "Conversations Roadshow: New York by CTO Craft",
     "event_date": "2026-12-08",
     "location": "New York, NY, U.S.A.",
@@ -2046,7 +2013,7 @@
     "mode": "Offline"
   },
   {
-    "id": "f341ce4c-1961-4b85-bba6-a45cdbf1898f",
+    "id": "c89788a2-9e2b-467f-9791-3eabaed38682",
     "title": "Clean Architecture Masterclass",
     "event_date": "2026-12-09",
     "location": "Online",
@@ -2057,7 +2024,7 @@
     "mode": "Online"
   },
   {
-    "id": "15a9eb8e-fcfd-4641-8f24-ab92f1a82ea8",
+    "id": "7a8f7aa4-7c4a-4dc1-a906-be05d437093b",
     "title": "droidcon London",
     "event_date": "2026-12-09",
     "location": "London, U.K.",
@@ -2068,7 +2035,7 @@
     "mode": "Offline"
   },
   {
-    "id": "0a58cda2-aabb-412e-8e1d-3d027e45e760",
+    "id": "19416fdc-0ec6-4c7f-a395-a3cd51ac093b",
     "title": "Great International AI Native Summit (GAINS)",
     "event_date": "2026-12-09",
     "location": "Bangalore, India",
@@ -2079,7 +2046,7 @@
     "mode": "Offline"
   },
   {
-    "id": "7f9e6d9a-8868-453d-b913-1bd77aab6584",
+    "id": "b466ed16-c73a-4e9a-86ad-279f090746c5",
     "title": "AI for Developers",
     "event_date": "2026-12-17",
     "location": "Virtual",
@@ -2090,7 +2057,7 @@
     "mode": "Online"
   },
   {
-    "id": "9e3a9650-abf4-4070-828a-bc47e398e5bd",
+    "id": "661985a9-64d0-4683-b17f-efd19d5127ac",
     "title": "SciPy India",
     "event_date": "2026-12-19",
     "location": "Chennai, India",
@@ -2101,7 +2068,7 @@
     "mode": "Offline"
   },
   {
-    "id": "276f8953-d3b9-431c-bc0a-236ca5c943d8",
+    "id": "2f385d06-f4f8-4772-8d65-f3e0da02817f",
     "title": "AI Conf Asia",
     "event_date": "2027-01-09",
     "location": "Kathmandu, Nepal",
@@ -2112,7 +2079,7 @@
     "mode": "Offline"
   },
   {
-    "id": "bd038473-491f-4a63-add6-b4059d4a8a84",
+    "id": "cc1be91d-2f30-45bd-948d-cdd50a879b28",
     "title": "JChampions Conference",
     "event_date": "2027-01-21",
     "location": "Virtual",
@@ -2123,7 +2090,7 @@
     "mode": "Online"
   },
   {
-    "id": "5630789a-6e51-4e9a-9f2b-2eeba13ad140",
+    "id": "02664c04-17df-44dc-bf93-fc913ca657ca",
     "title": "3rd International Conference on Artificial Intelligence and Data Science",
     "event_date": "2027-02-01",
     "location": "Dubai, United Arab Emirates",
@@ -2134,7 +2101,7 @@
     "mode": "Offline"
   },
   {
-    "id": "c2025a9c-e9d4-44e3-b7ad-ffddcf87a757",
+    "id": "bec8cfaf-f4d3-45bb-8bfe-f0b5a1fa9e35",
     "title": "TechEx Global",
     "event_date": "2027-02-03",
     "location": "London, U.K.",
@@ -2145,7 +2112,7 @@
     "mode": "Offline"
   },
   {
-    "id": "388e39a5-f7ae-4ef9-a932-667c12812a4f",
+    "id": "600612d1-9f90-455a-865e-4385756a9749",
     "title": "HalfStack Phoenix",
     "event_date": "2027-02-05",
     "location": "Phoenix, AZ, U.S.A.",
@@ -2156,7 +2123,7 @@
     "mode": "Offline"
   },
   {
-    "id": "4b3a9026-90d3-495a-8d2a-06fb040008c6",
+    "id": "774bdc39-65fb-4c85-8518-468ba81ec49f",
     "title": "Developer Week",
     "event_date": "2027-02-09",
     "location": "Santa Clara, CA, U.S.A.",
@@ -2167,7 +2134,7 @@
     "mode": "Offline"
   },
   {
-    "id": "3bb1fb18-fa65-4d6c-a4fe-c16784c8ea20",
+    "id": "ef939fea-1a06-49e4-9c2b-951a99fd3d9b",
     "title": "Axe-con",
     "event_date": "2027-02-23",
     "location": "Virtual",
@@ -2178,7 +2145,7 @@
     "mode": "Online"
   },
   {
-    "id": "f62a050b-2deb-4b15-9e6e-39b1dfce8abe",
+    "id": "5f39b640-e711-4448-b432-a15b84a81ff9",
     "title": "ConFoo Montreal",
     "event_date": "2027-02-24",
     "location": "Montreal, Canada",
@@ -2189,7 +2156,7 @@
     "mode": "Offline"
   },
   {
-    "id": "202f9f30-ef9d-4815-b4d1-1b47ac6864cd",
+    "id": "c3dd5d03-ec2b-4b46-a0e9-118542c6651e",
     "title": "Mountain Camp",
     "event_date": "2027-03-02",
     "location": "Davos, Switzerland",
@@ -2200,7 +2167,7 @@
     "mode": "Offline"
   },
   {
-    "id": "488e9815-ba74-42dd-a140-3cbde88f27e9",
+    "id": "64add843-149f-486f-bc62-3675bf54b2de",
     "title": "Annual Global Summit on Artificial Intelligence and Machine Learning",
     "event_date": "2027-03-08",
     "location": "Barcelona, Spain",
@@ -2211,7 +2178,7 @@
     "mode": "Offline"
   },
   {
-    "id": "0974a277-fcf0-44d1-ba26-6b0de8b119c7",
+    "id": "39208d89-138d-4b61-ad6e-bd5ddb79e400",
     "title": "Voxxed Days Zürich",
     "event_date": "2027-03-09",
     "location": "Zurich, Switzerland",
@@ -2222,7 +2189,7 @@
     "mode": "Offline"
   },
   {
-    "id": "d71cf8d9-f7c6-4894-8918-99e63f1e8de2",
+    "id": "bc103bcd-d93b-4139-868c-624be4e6e579",
     "title": "INTED",
     "event_date": "2027-03-09",
     "location": "Virtual",
@@ -2233,7 +2200,7 @@
     "mode": "Online"
   },
   {
-    "id": "a0997ae6-f5e0-4c13-b10b-2d80c2885426",
+    "id": "89b8091c-a7e1-4f92-880b-d6e61a820eee",
     "title": "Vuejs Amsterdam",
     "event_date": "2027-03-11",
     "location": "Amsterdam, Netherlands",
@@ -2244,7 +2211,7 @@
     "mode": "Offline"
   },
   {
-    "id": "9a6dc871-a08c-4d40-936c-0b3b4edc9086",
+    "id": "0bd73e40-6682-4fd3-a57a-0c0f36991ea9",
     "title": "JSWorld Conference",
     "event_date": "2027-03-12",
     "location": "Virtual",
@@ -2255,7 +2222,7 @@
     "mode": "Online"
   },
   {
-    "id": "0a75aff7-9267-4135-8764-d21fba340e49",
+    "id": "aedfb86b-bf26-4055-905c-23f5ac87705b",
     "title": "CTO Craft Con: London",
     "event_date": "2027-03-15",
     "location": "London, U.K.",
@@ -2266,7 +2233,7 @@
     "mode": "Offline"
   },
   {
-    "id": "8858d5bb-d14d-4591-b387-f6d87746a85a",
+    "id": "4e80f056-96ab-4995-b240-ad0936e58134",
     "title": "GITEX AI LATAM",
     "event_date": "2027-03-16",
     "location": "São Paulo, Brazil",
@@ -2277,7 +2244,7 @@
     "mode": "Offline"
   },
   {
-    "id": "7d6aef87-fce4-4e71-a459-6a90f43b2d6e",
+    "id": "3633dd20-4dff-43a6-8af7-961583568293",
     "title": "International Conference on Artificial Intelligence and Machine Learning",
     "event_date": "2027-03-20",
     "location": "Barcelona, Spain",
@@ -2288,7 +2255,7 @@
     "mode": "Offline"
   },
   {
-    "id": "98af2ea6-5a33-4009-8ee4-1e4774dab0e3",
+    "id": "e58becf7-c73d-4441-b0c1-4f5ffcccd050",
     "title": "FOSS-LÄND x OpenChain",
     "event_date": "2027-03-22",
     "location": "Stuttgart, Germany",
@@ -2299,18 +2266,18 @@
     "mode": "Offline"
   },
   {
-    "id": "c9123c05-cbd7-4460-b2d7-2da15bbc1f5a",
+    "id": "94cc7336-7737-4665-bac5-813ae9e9be36",
     "title": "CypherCon 10",
     "event_date": "2027-03-23",
     "location": "Milwaukee, United States",
     "url": "https://www.web3events.guide/events/cypher-con-10-2e9jgdon",
     "category": "Web3",
     "platform_source": "web3events.guide",
-    "fee_type": "Free",
+    "fee_type": "Paid",
     "mode": "Offline"
   },
   {
-    "id": "ee2949e3-a847-4c1d-9c6b-f2724e5c33bd",
+    "id": "79eedc66-9661-43ca-96ed-c2b64f02ab5e",
     "title": "ParisTestConf",
     "event_date": "2027-03-23",
     "location": "Paris, France",
@@ -2321,7 +2288,7 @@
     "mode": "Offline"
   },
   {
-    "id": "3c11f483-5522-499d-8218-7bb42a47b027",
+    "id": "f88dea55-f0e7-445a-be0e-4ef7ed5d6f13",
     "title": "SCaLE",
     "event_date": "2027-04-01",
     "location": "Pasadena, CA, U.S.A.",
@@ -2332,7 +2299,18 @@
     "mode": "Offline"
   },
   {
-    "id": "538951e8-f8c5-4b47-a85a-5f5266b89cf4",
+    "id": "99450df0-6511-4818-a070-67898ce2e1b6",
+    "title": "ClimateTech Connect",
+    "event_date": "2027-04-07",
+    "location": "Walter E. Washington Convention Center",
+    "url": "https://luma.com/6uavvbs7",
+    "category": "General Tech",
+    "platform_source": "lu.ma",
+    "fee_type": "Paid",
+    "mode": "Offline"
+  },
+  {
+    "id": "e96cdf73-255c-4446-b936-61b5a6a9acc6",
     "title": "GENAIX: Global Generative & Agentic AI Summit",
     "event_date": "2027-04-15",
     "location": "Singapore, Singapore",
@@ -2343,7 +2321,7 @@
     "mode": "Offline"
   },
   {
-    "id": "c8920fa1-1621-403c-a766-9d98d27cc4ed",
+    "id": "b8f6c1e9-2c67-444d-9ea5-9befdeab6f56",
     "title": "Digital Crafts Day",
     "event_date": "2027-04-16",
     "location": "Weiden, Germany",
@@ -2354,7 +2332,7 @@
     "mode": "Offline"
   },
   {
-    "id": "9d3288ae-576f-4954-8185-68d77dd90cd0",
+    "id": "197503b7-4939-4c67-b85a-78c8becc4abc",
     "title": "Java Day Istanbul",
     "event_date": "2027-04-17",
     "location": "Istanbul, Turkey",
@@ -2365,7 +2343,7 @@
     "mode": "Offline"
   },
   {
-    "id": "09361e75-38e3-4d32-bb1f-257e6a3ac252",
+    "id": "30e4dad9-79ed-437c-9917-ff5aaf2fd561",
     "title": "ELC Conference",
     "event_date": "2027-04-17",
     "location": "Prague, Czech Republic",
@@ -2376,7 +2354,7 @@
     "mode": "Offline"
   },
   {
-    "id": "1cb9ff09-ffc4-403e-b995-fc575a7e0f70",
+    "id": "fc509058-69b5-4960-9724-26d1534f6ab2",
     "title": "AiX Conference",
     "event_date": "2027-04-21",
     "location": "Newcastle-Upon-Tyne, U.K.",
@@ -2387,7 +2365,7 @@
     "mode": "Offline"
   },
   {
-    "id": "1533fdd2-39c3-4fd6-b7d4-96e999a2c76b",
+    "id": "121aac93-eeef-42eb-abe9-9b8faf0164dc",
     "title": "STAREAST",
     "event_date": "2027-04-25",
     "location": "Virtual",
@@ -2398,7 +2376,7 @@
     "mode": "Online"
   },
   {
-    "id": "905d1315-10c8-4303-b3ab-b33290e2b859",
+    "id": "3222840a-2eb0-4c1c-a82d-2cd8954ae0d3",
     "title": "JCON EUROPE",
     "event_date": "2027-04-26",
     "location": "Cologne, Germany",
@@ -2409,7 +2387,7 @@
     "mode": "Offline"
   },
   {
-    "id": "b2f282a4-7de5-400f-81c6-7687f53933b7",
+    "id": "0984d692-d016-481a-b25a-2c1eb8ff2702",
     "title": "Great International Developer Summit (GIDS)",
     "event_date": "2027-04-27",
     "location": "Bangalore, India",
@@ -2420,7 +2398,7 @@
     "mode": "Offline"
   },
   {
-    "id": "4e59e13b-e3ae-45c6-b0da-accde8f3e5f7",
+    "id": "a1358547-882f-4768-b6d1-2b580a2d7e5d",
     "title": "EuroSTAR Conference",
     "event_date": "2027-05-11",
     "location": "Copenhagen, Denmark",
@@ -2431,7 +2409,7 @@
     "mode": "Offline"
   },
   {
-    "id": "6aa7f0cc-bde9-40ec-94f8-811101431edf",
+    "id": "875dbbcd-7a54-48e2-bec4-4987c4feb422",
     "title": "UXLx: User Experience Lisbon",
     "event_date": "2027-05-11",
     "location": "Lisbon, Portugal",
@@ -2442,7 +2420,7 @@
     "mode": "Offline"
   },
   {
-    "id": "d9540cbe-ee71-4984-8e82-d74853e37660",
+    "id": "1dca3634-b0cc-4650-89e5-f04001186762",
     "title": "GITEX AI SERBIA",
     "event_date": "2027-05-26",
     "location": "Belgrade, Serbia",
@@ -2453,7 +2431,7 @@
     "mode": "Offline"
   },
   {
-    "id": "261b5623-8519-4881-8f16-a193435c9e46",
+    "id": "27f75bc8-ad43-4a05-a506-d2364b4b1df8",
     "title": "AI Con USA",
     "event_date": "2027-06-06",
     "location": "Virtual",
@@ -2464,7 +2442,7 @@
     "mode": "Online"
   },
   {
-    "id": "0351f1c6-49bc-4d10-bf53-cbfff144b69e",
+    "id": "45b04e72-3dd9-46cf-a72b-7fd3412a2292",
     "title": "International Conference on Robotics, Artificial Intelligence and Autonomous Systems",
     "event_date": "2027-06-09",
     "location": "Singapore, Singapore",
@@ -2475,7 +2453,7 @@
     "mode": "Offline"
   },
   {
-    "id": "6405a5cf-f219-4381-b7e0-a9600d9f1274",
+    "id": "01f4ded4-4ca0-4fc9-b568-9e2d76ba57e0",
     "title": "International Conference on Cybersecurity, AI & Future Digital Infrastructure",
     "event_date": "2027-06-09",
     "location": "Singapore, Singapore",
@@ -2486,7 +2464,7 @@
     "mode": "Offline"
   },
   {
-    "id": "1693cc46-9116-4505-abfc-2837a602d441",
+    "id": "c36cce8a-56cd-4e9c-968c-7556e7685e9b",
     "title": "Nürnberg Digital Festival",
     "event_date": "2027-06-14",
     "location": "Virtual",
@@ -2497,7 +2475,7 @@
     "mode": "Online"
   },
   {
-    "id": "e16f45dd-660d-44eb-a1fd-7ff1cf913aef",
+    "id": "a0d1cb75-fba1-48c0-8a86-6baf24ec6e25",
     "title": "Accelerate Tomorrow AI Summit",
     "event_date": "2027-06-15",
     "location": "Berlin, Germany",
@@ -2508,7 +2486,7 @@
     "mode": "Offline"
   },
   {
-    "id": "a9b57b69-0b71-44db-a7bb-d3809726d49c",
+    "id": "ab2e68b2-3815-4bc0-9ddb-022481a10b46",
     "title": "Data Centre North America",
     "event_date": "2027-06-16",
     "location": "San Jose, CA, U.S.A.",
@@ -2519,7 +2497,7 @@
     "mode": "Offline"
   },
   {
-    "id": "3467fc9d-4ee4-4f34-85bd-65052b7392eb",
+    "id": "92057dee-8536-46e9-97ed-461dc6e43d42",
     "title": "TechEx North America",
     "event_date": "2027-06-16",
     "location": "San Jose, CA, U.S.A.",
@@ -2530,7 +2508,7 @@
     "mode": "Offline"
   },
   {
-    "id": "fe9e1852-a12e-4f86-8e0f-12372c153c28",
+    "id": "33abb7d8-bcd3-4c4a-888c-3a67e1763b9c",
     "title": "Signal Week (formerly Paris Blockchain Week)",
     "event_date": "2027-07-06",
     "location": "Paris, France",
@@ -2541,7 +2519,7 @@
     "mode": "Offline"
   },
   {
-    "id": "62c1289a-d946-45d7-b55d-fc1402a62d00",
+    "id": "fe9bceff-52ad-4441-8b62-6537d2b8a8e8",
     "title": "Annual Global Summit on Robotics, AI and Machine Learning",
     "event_date": "2027-09-15",
     "location": "Rome, Italy",
